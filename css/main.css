@@ -21,6 +21,7 @@ body {
     height: 100%;
     overflow-x: hidden; /* prevent sreen scroll from smaller screens */
 }
+
 .col-12{
     text-align:center;
     padding:0; /* reset bootstrap padding */
@@ -57,7 +58,9 @@ header h1 span{
     height:100px;
 }
     /*      Footer        */
+
 footer button{
+    text-shadow: 1px -1px 1px #e2a2df;
     position: absolute;
     bottom:25px;
     right:20px;
