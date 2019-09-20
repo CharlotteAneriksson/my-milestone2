@@ -1,4 +1,5 @@
-var welcomeArr = ["Hey, its story time", "Hej, dags för sago stund"];
+
+var welcomeArr = [`Hey, <span>its story time</span>`, `Hej, <span>dags för sagostund</span>`];
 var i = 0;
 var heading = document.querySelector("#two-language-heading");
 
