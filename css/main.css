@@ -81,5 +81,6 @@ footer button{
     margin:0 auto;
     background-color:rgba(255, 255, 255, 0.7);
     border: 3px solid #7e557f;
+    border-radius: 10px;
     font-size:.8em;
 }
