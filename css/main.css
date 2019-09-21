@@ -75,5 +75,11 @@ footer button{
     color:#7e557f;
     background-color:#a874a8;
 }    /*Add active too..*/
-
-
+   /* Info when clicked */
+.showHowItWorks{
+    max-width: 75%;
+    margin:0 auto;
+    background-color:rgba(255, 255, 255, 0.7);
+    border: 3px solid #7e557f;
+    font-size:.8em;
+}

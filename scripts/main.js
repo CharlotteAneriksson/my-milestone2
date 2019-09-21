@@ -1,5 +1,5 @@
 // Welcomephrase Landingpage
-var welcomeArr = [`Hey, <span>its story time</span>`, `Hej, <span>dags för sagostund</span>`];
+var welcomeArr = [`Hey, <span>its story time</span>`, `Hej, <span> tid för sagostund</span>`];
 var i = 0;
 var heading = document.querySelector("#two-language-heading");
 
@@ -33,4 +33,4 @@ greeting();
 
 //End of Welcomephrase
 
-
+// ? button, how it works button
