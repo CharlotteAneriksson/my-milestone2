@@ -140,11 +140,30 @@ footer button:hover{
 
     /*      Buttons      */
 .greenButton{
-
+    margin-top:40px;
+}
+.greenButton a{
+    color:#b6ce72;
+    font-size:1.5em;
+    background-color: #adba60;
+    box-shadow:4px 4px 1px #526347;
+    padding:20px;
+    border-radius: 10px;
 }
 .back{
     margin:0 auto;
     position: absolute;
     bottom:50px;
     left:0;
+}
+.back a, .greenButton a{
+    text-decoration: none;
+    letter-spacing: 2px;
+}
+.back a{
+    color:#f7a654;
+    background-color: #d06827;
+    box-shadow:4px 4px 1px #a85a2f;
+    padding:10px;
+    border-radius: 10px;
 }
