@@ -61,8 +61,8 @@ Validation of CSS3 - https://jigsaw.w3.org/css-validator/
 
 ### Adjustments
 * Original landingpage UX
-  * Changed the original UX to a more understandable one for the youngest kids. Changes the buttons into flags.
-  * Added a ?-button so that you can read about what it is and how it works. Good for the parents.
+  * Changed the original UX to a more understandable one for the youngest kids. Changed the buttons into flags.
+  * Added a ?-button so that you can read about what it is and how it works. Good for the parent and maybe also good for older children or sibblings.
 
 ## Bugs and Bugfixers
 * 
