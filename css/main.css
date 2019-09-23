@@ -33,6 +33,18 @@ body {
     background-size: cover;
     background-attachment: fixed; /* Fills whitespace createt on iphone */
 }
+#choiceContainer section:nth-child(1){
+    background-image: url("../assets/img/bg2.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#choiceContainer section:nth-child(5){
+    background-image: url("../assets/img/bg3.jpg");
+    background-position: center left;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
     /*      Welcome phrase        */
 #two-language-heading{
     margin-top:30px;
@@ -45,7 +57,7 @@ header h1 span{
     display:block;
     font-size: 50%;
 }
-    /*      Buttons        */
+    /*      Flags        */
 .btn-language img{
     margin:10px 0 10px 0;
     opacity:0.8;
@@ -77,7 +89,7 @@ footer button:hover{
     color:#7e557f;
     background-color:#a874a8;
 } 
-   /* Info shows when clicked */
+        /*      Info shows when clicked       */
 #showHowItWorks{
     font-family: 'Source Sans Pro', sans-serif;
     color:#fafafa;
@@ -94,7 +106,7 @@ footer button:hover{
     visibility:hidden;
 }
 
-    /*      Footer        */
+    /*      Second page - User makes their choices      */
 #choiceContainer{
     height:100vh;
 }
@@ -102,7 +114,14 @@ footer button:hover{
     height:100vh;
 }
 #choiceContainer section:nth-child(1){
-    background-color:#a874a8;
+    text-align: center;
+}
+#choiceContainer section > h1{
+    padding:40px 10px 0 10px;
+}
+#choiceContainer section > p{
+    font-size:22px;
+    padding:0 5px 0 5px;
 }
 #choiceContainer section:nth-child(2){
     background-color:#7e557f;
@@ -117,4 +136,15 @@ footer button:hover{
 }
 #choiceContainer section:nth-child(5){
     background-color:#a874a8;
+}
+
+    /*      Buttons      */
+.greenButton{
+
+}
+.back{
+    margin:0 auto;
+    position: absolute;
+    bottom:50px;
+    left:0;
 }
