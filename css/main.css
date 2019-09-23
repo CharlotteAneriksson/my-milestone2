@@ -143,12 +143,17 @@ footer button:hover{
     margin-top:40px;
 }
 .greenButton a{
-    color:#b6ce72;
+    color:#526347;
     font-size:1.5em;
     background-color: #adba60;
     box-shadow:4px 4px 1px #526347;
     padding:20px;
     border-radius: 10px;
+    transition: background-color .3s ease-in-out, color .3s ease-in-out;
+}
+.greenButton a:hover{
+    color:#99a555;
+    background-color: #b6ce72;
 }
 .back{
     margin:0 auto;
@@ -166,4 +171,10 @@ footer button:hover{
     box-shadow:4px 4px 1px #a85a2f;
     padding:10px;
     border-radius: 10px;
+    transition: background-color .3s ease-in-out, color .3s ease-in-out;
 }
+.back a:hover{
+    color:#d06827;
+    background-color: #f7a654;
+}
+
