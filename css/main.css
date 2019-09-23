@@ -61,9 +61,10 @@ header h1 span{
     /*      Footer        */
 footer button{
     position: absolute;
-    bottom:25px;
+    bottom:20px;
     right:20px;
     width:50px;
+    height:50px;
     padding:5px; 
     color:#a874a8;
     background-color:#7e557f;
@@ -89,7 +90,6 @@ footer button:hover{
     margin-left:1px;
     align-items: center;
     justify-content: center;
-    font-size:;
     color:#a874a8;
     visibility:hidden;
 }
