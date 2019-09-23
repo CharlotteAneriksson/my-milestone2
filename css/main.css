@@ -112,8 +112,6 @@ footer button:hover{
 }
 #choiceContainer section{
     height:100vh;
-}
-#choiceContainer section:nth-child(1){
     text-align: center;
 }
 #choiceContainer section > h1{
@@ -134,16 +132,17 @@ footer button:hover{
     background-color:#7e557f;
     color:#a874a8;
 }
-#choiceContainer section:nth-child(5){
-    background-color:#a874a8;
+#choiceContainer section:nth-child(5) p{
+    padding:40px 10px 0 10px;
 }
+
 
     /*      Buttons      */
 .greenButton{
     margin-top:40px;
 }
 .greenButton a{
-    color:#526347;
+    color:#c5dd83;
     font-size:1.5em;
     background-color: #adba60;
     box-shadow:4px 4px 1px #526347;
@@ -152,12 +151,12 @@ footer button:hover{
     transition: background-color .3s ease-in-out, color .3s ease-in-out;
 }
 .greenButton a:hover{
-    color:#99a555;
-    background-color: #b6ce72;
+    color:#adba60;
+    background-color: #c5dd83;
 }
 .back{
     margin:0 auto;
-    position: absolute;
+    position: absolute;     /* Best position to fit all screensizes */
     bottom:50px;
     left:0;
 }
@@ -177,4 +176,9 @@ footer button:hover{
     color:#d06827;
     background-color: #f7a654;
 }
-
+.backLast{      /* Added a class for back-link do to the positioning */
+    margin:0 auto;
+    position: relative;     /* Best position to fit all screensizes */
+    top:50px;
+    left:0;
+}
