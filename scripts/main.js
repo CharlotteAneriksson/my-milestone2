@@ -40,3 +40,7 @@ function openInfo(){
 function closeInfo(){
     showHowItWorks.style.visibility="hidden"
 }
+
+function hello(){
+    document.write("Hi");
+}
