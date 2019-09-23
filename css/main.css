@@ -78,6 +78,7 @@ footer button:hover{
 } 
    /* Info when clicked */
 #showHowItWorks{
+    font-family: 'Source Sans Pro', sans-serif;
     position: fixed;
     width:100vw;
     height:100vh;
@@ -88,7 +89,7 @@ footer button:hover{
     margin-left:1px;
     align-items: center;
     justify-content: center;
-    font-size:.9em;
+    font-size:;
     color:#a874a8;
     visibility:hidden;
 }
