@@ -93,3 +93,28 @@ footer button:hover{
     justify-content: center;
     visibility:hidden;
 }
+
+    /*      Footer        */
+#choiceContainer{
+    height:100vh;
+}
+#choiceContainer section{
+    height:100vh;
+}
+#choiceContainer section:nth-child(1){
+    background-color:#a874a8;
+}
+#choiceContainer section:nth-child(2){
+    background-color:#7e557f;
+    color:#a874a8;
+}
+#choiceContainer section:nth-child(3){
+    background-color:#a874a8;
+}
+#choiceContainer section:nth-child(4){
+    background-color:#7e557f;
+    color:#a874a8;
+}
+#choiceContainer section:nth-child(5){
+    background-color:#a874a8;
+}
