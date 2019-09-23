@@ -33,4 +33,10 @@ greeting();
 
 //End of Welcomephrase
 
-// ? button, how it works button
+// Information button - toggle info show/hide
+function openInfo(){
+    showHowItWorks.style.visibility="visible"
+}
+function closeInfo(){
+    showHowItWorks.style.visibility="hidden"
+}

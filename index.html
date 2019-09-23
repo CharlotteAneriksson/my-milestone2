@@ -8,6 +8,7 @@
     <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600,700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Fredoka+One&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
     <link rel="stylesheet" href="css/main.css">
 </head>
 <body class="wrapper bg1 row">
@@ -26,11 +27,18 @@
             </div>
         </main>
         <footer class="col-12">
-            <button class="btn btn-howItWorks" id="btn-howItWorks">?</button></div>
-            <div class="row showHowItWorks">
+            <button id="btn-howItWorks" onclick="openInfo()">
+                <i class="fa fa-question-circle" aria-hidden="true"></i>
+                <span class="sr-only">Questionmark</span>
+            </button>
+            <div class="row" id="showHowItWorks">
+                <button onclick="closeInfo()">
+                        <i class="fa fa-times-circle" aria-hidden="true"></i>
+                        <span class="sr-only">Close infobox</span>
+                </button>
                 <div class="col-sm">
                     <h4>How it works</h4>
-                    <p>This is an app where parents and child or only one of them can have a nice storytime.<br />
+                    <p>This is an app where parent and child or only one of them can have a nice storytime.<br />
                         First select language by clicking the flag. Then you will have to give the writer three options, one character, one enviroment and one item please.
                         When you are done then press ok and the story will be handed to you, enjoy! </p>
                 </div>
