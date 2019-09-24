@@ -133,6 +133,9 @@ ul li{
    list-style-type: none;
    padding:20px 0 0 0;
 }
+ul li img{
+    width:100%;
+}
 ul li input{
     display:none;
  }
