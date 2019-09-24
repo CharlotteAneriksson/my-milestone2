@@ -43,7 +43,7 @@ body {
     background-image: url("../assets/img/bg3.jpg");
     background-position: center left;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: cover; 
 }
     /*      Welcome phrase        */
 #two-language-heading{
@@ -74,7 +74,7 @@ header h1 span{
 footer button{
     position: absolute;
     bottom:20px;
-    right:20px;
+    right:15px;
     width:50px;
     height:50px;
     padding:5px; 
@@ -114,26 +114,17 @@ footer button:hover{
     height:100vh;
     text-align: center;
 }
+
 #choiceContainer section > h1{
     padding:40px 10px 0 10px;
 }
 #choiceContainer section > p{
     font-size:22px;
-    padding:0 5px 0 5px;
+    padding:40px 5px 0 5px;
 }
-#choiceContainer section:nth-child(2){
-    background-color:#7e557f;
-    color:#a874a8;
-}
-#choiceContainer section:nth-child(3){
-    background-color:#a874a8;
-}
-#choiceContainer section:nth-child(4){
-    background-color:#7e557f;
-    color:#a874a8;
-}
-#choiceContainer section:nth-child(5) p{
+#choiceContainer section:nth-child(5) {
     padding:40px 10px 0 10px;
+  
 }
 
 
