@@ -142,7 +142,3 @@ Validation of CSS3 - https://jigsaw.w3.org/css-validator/
 2. Iphone
 
 ## Bugs and Bugfixers
-* 
- * 
-* 
- * 
