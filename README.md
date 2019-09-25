@@ -45,21 +45,21 @@
     <p align="center">
       <img width="300" height="100" src="assets\colors\color1.jpg" alt="orange color">
     </p>
-   1. **Orange** 
+   ##### Orange
       This color will draw attention and might make a person feel enthusiasm, balance and wormth. Is is according to science a welcoming color.
-    #e2985d 
+    \ #e2985d 
     <p align="center">
       <img width="300" height="100" src="assets\colors\color2.jpg" alt="purple color">
     </p>
-   2. **Purple** 
+   ##### Purple
     Purple is the color of the devine. Back in the days it was a royal color that today might bring up feeling like royalty, spiritual, mysterious and intelligent.
-    #7e557f
+    \ #7e557f
     <p align="center">
       <img width="300" height="100" src="assets\colors\color3.jpg" alt="green color">
     </p>
-   3. **Green** 
+   ##### Green 
     Has a calming and refreshing effect and its the most kind to the eye. Is a symbol for nature and could induce feelings like analytical, calm, wealth and pure.  
-    #adba60
+    \ #adba60
 
 ## Features 
 1. #### Language choice
