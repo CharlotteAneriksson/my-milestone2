@@ -7,16 +7,16 @@
 ## UX & UI
 ### What it is
 1. **Possibility to write your own good night story**
-  * An app that makes it possible to create and read a story for a good night sleep or just to have a nice time while its raining. 
-  * Choices are given to you, enviroment, character and item. This will after selection create a story.
+    * An app that makes it possible to create and read a story for a good night sleep or just to have a nice time while its raining. 
+    * Choices are given to you, enviroment, character and item. This will after selection create a story.
 ### Whom its for
 1. **The Parent**
-  * When the creativity lack after a hard day at work.
-  * When you wanna use todays technologies but still wanna give what you got when you were a kid. 
+    * When the creativity lack after a hard day at work.
+    * When you wanna use todays technologies but still wanna give what you got when you were a kid. 
 2. **The Child**
-  * Learning to read.
-  * Get activated in a calm, yet playful way. 
-  
+    * Learning to read.
+    * Get activated in a calm, yet playful way. 
+
 #### User
 #### Developer
 ### Design
