@@ -61,7 +61,6 @@
     </p>
  * Green 
     Has a calming and refreshing effect and its the most kind to the eye. Is a symbol for nature and could induce feelings like analytical, calm, wealth and pure.  
-    <br />
     #adba60
 
 ## Features 
