@@ -41,11 +41,11 @@
 1. UX User Experience
     * My UX is made to be simple and easy to understand even for the youngest of children useing the App. 
     * Photos are well thought out, they are there to create feelings and well thought out connections.
-      **bg1** <br />
+      * **bg1** <br />
       This is a laughing little happy boy. He reminds med of laughter and loads laughter. Pure happienss, that kind that only a kid has.
-      **bg2** <br />
+      * **bg2** <br />
       Two friends, two sibblings are together reading a story. The picture reminds me of building relationships and trust.
-      **bg3** <br />
+      * **bg3** <br />
       Reminds me and my brothers kids of a cosy cabbin built with cushions and bedsheets hihi. So cozy!
 2. Colors 
     <p align="center">
