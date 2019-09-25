@@ -11,23 +11,46 @@
     * Choices are given to you, enviroment, character and item. This will after selection create a story.
 ### Whom its for
 1. **The Parent**
-    * When the creativity lack after a hard day at work.
-    * When you wanna use todays technologies but still wanna give what you got when you were a kid. 
-2. **The Child**
-    * Learning to read.
-    * Get activated in a calm, yet playful way. 
+2. **All parents, sibblings or other family**
+3. **Children**
+    * Childen from 2-7
 
 #### User
+1. **Make time for both technologies and familytime**
+    * As a parent, no need to have good imagination anymore. Just open the app, get your child to select their favourit animal, enviroments and items and just with a click you have a story to read together.
+    * When the creativity lack after a hard day at work.
+    * When you wanna use todays technologies but still wanna give what you got when you were a kid.
+    * No need to think all screens are bad. They are not all bad, just use them for the right reasons.
+2.  **The Child**
+    * Learning to read.
+    * Get activated in a calm, yet playful way. 
+    * They wake up in the middle of the night and dont wanna wake up mom and dad, they can just read a story
+
 #### Developer
+1. **For fun**
+    * Just for fun or for you own children. Create a game or other fun stuff you can later use with your kids or give away to others.
+2. **To grow creativity**
+    * Create color, graphic cartoons or just make up a game that doesnt excist.
+3. **To practice JavaScript**
+    * Maybe my JS can be written more simple? Or the logic can be written with other JS logic? 
+4. **To practice mobileFirst**
+    * Today most people visits the internet with their mobilephones. The statistics are very high, check it out [for Sweden](https://2017.svenskarnaochinternet.se/allmant-om-utvecklingen/internet-i-mobilen/)
+    * The importance of mobilefirst is very great if you wanna grow the range of visitors or users.
+
 ### Design
-* UX - 
-* Colors - 
+1. UX User Experience
+    * My UX is made to be simple and easy to understand even for the youngest of children useing the App. 
+    * 
+2. Colors 
+    <p text-align="center">
+      <img width="600" height="200" src="assets\colors\color1.jpg" alt="orange color">
+    </p>
 
 
 ## Features 
 1. #### Language choice
-  * Possibility to choose to play the App in Swedish- or English mode, selected by flags
-  * Heading circulates in both langugages 
+    * Possibility to choose to play the App in Swedish- or English mode, selected by flags
+    * Heading circulates in both langugages 
 2. Create a farytail by chooseing yourself who's going to be the main character
 3.  
 ## Future features 
@@ -35,7 +58,7 @@
 
 ## Credit
 ### Photographers
-* All photographs are taken from [Unsplash](https://unsplash.com/).
+  * All photographs are taken from [Unsplash](https://unsplash.com/).
 It is free and you can use it in commercial use and for your own use. Credit isn't required but they like it when you do.
   * Background pic - Landing bg1 [Ben White](https://unsplash.com/photos/4K2lIP0zc_k)
   * Background pic - Bg2 [Ben White](https://unsplash.com/photos/EMZxDosijJ4)
