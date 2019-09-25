@@ -6,7 +6,17 @@
 
 ## UX & UI
 ### What it is
+1. **Possibility to write your own good night story**
+  * An app that makes it possible to create and read a story for a good night sleep or just to have a nice time while its raining. 
+  * Choices are given to you, enviroment, character and item. This will after selection create a story.
 ### Whom its for
+1. **The Parent**
+  * When the creativity lack after a hard day at work.
+  * When you wanna use todays technologies but still wanna give what you got when you were a kid. 
+2. **The Child**
+  * Learning to read.
+  * Get activated in a calm, yet playful way. 
+  
 #### User
 #### Developer
 ### Design
@@ -15,7 +25,11 @@
 
 
 ## Features 
-
+1. #### Language choice
+  * Possibility to choose to play the App in Swedish- or English mode, selected by flags
+  * Heading circulates in both langugages 
+2. Create a farytail by chooseing yourself who's going to be the main character
+3.  
 ## Future features 
 
 
@@ -47,9 +61,18 @@ It is free and you can use it in commercial use and for your own use. Credit isn
 * Font Awesome - Similar to google fonts but more of font and icon based toolkit, available both for free and for a fee. 
   * Icons 
 
+--- 
+
 ### Deployment
-* Visual Studio Code
-* Git & GitHub
+* Tools used for deployment
+  * Visual Studio Code
+  * Git & GitHub
+* How I deployed my project
+1. After final **git push** i loged into my GitHub account
+2. Locate the right repository and choose **Settings**
+3. Scroll down to **GitHub Pages** > **Source** and select **master branch**
+4. Once selected its deployed. Copy **link** and paste into README.md 
+
  
 
 ## Validations, Testing & Adjustments 
@@ -63,6 +86,15 @@ Validation of CSS3 - https://jigsaw.w3.org/css-validator/
 * Original landingpage UX
   * Changed the original UX to a more understandable one for the youngest kids. Changed the buttons into flags.
   * Added a ?-button so that you can read about what it is and how it works. Good for the parent and maybe also good for older children or sibblings.
+
+### Testing
+1. Desktop & Laptop
+  * All linkes where clicked and tested if they were working proparly
+  * Browsers used:
+    * Chrome - 
+    * Edge - 
+    * Fireforx - 
+2. Iphone
 
 ## Bugs and Bugfixers
 * 
