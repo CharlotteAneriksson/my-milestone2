@@ -42,10 +42,9 @@
     * My UX is made to be simple and easy to understand even for the youngest of children useing the App. 
     * 
 2. Colors 
-    <p text-align="center">
-      <img width="600" height="200" src="assets\colors\color1.jpg" alt="orange color">
+    <p align="center">
+      <img width="350" height="100" src="assets\colors\color1.jpg" alt="orange color">
     </p>
-
 
 ## Features 
 1. #### Language choice
