@@ -42,20 +42,20 @@
     * My UX is made to be simple and easy to understand even for the youngest of children useing the App. 
     * 
 2. Colors 
-    <p align="center">
+    * <p align="center">
       <img width="300" height="100" src="assets\colors\color1.jpg" alt="orange color">
     </p>
-    * **Orange** - This color will draw attention and might make a person feel enthusiasm, balance and wormth. Is is according to science a welcoming color.
+      **Orange** - This color will draw attention and might make a person feel enthusiasm, balance and wormth. Is is according to science a welcoming color.
     * #e2985d 
-    <p align="center">
+    * <p align="center">
       <img width="300" height="100" src="assets\colors\color2.jpg" alt="purple color">
     </p>
-    * **Purple** - Purple is the color of the devine. Back in the days it was a royal color that today might bring up feeling like royalty, spiritual, mysterious and intelligent.
+    **Purple** - Purple is the color of the devine. Back in the days it was a royal color that today might bring up feeling like royalty, spiritual, mysterious and intelligent.
     * #7e557f
-    <p align="center">
+    * <p align="center">
       <img width="300" height="100" src="assets\colors\color3.jpg" alt="green color">
     </p>
-    * **Green** - Has a calming and refreshing effect and its the most kind to the eye. Is a symbol for nature and could induce feelings like analytical, calm, wealth and pure.  
+    **Green** - Has a calming and refreshing effect and its the most kind to the eye. Is a symbol for nature and could induce feelings like analytical, calm, wealth and pure.  
     * #adba60
 
 ## Features 
