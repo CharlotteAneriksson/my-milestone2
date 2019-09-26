@@ -41,7 +41,7 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
 }
-#choiceContainer section:nth-child(5){
+/*ADD ON*/{
     background-image: url("../assets/img/bg3.jpg");
     background-position: center left;
     background-repeat: no-repeat;
@@ -126,9 +126,7 @@ footer button:hover{
     font-size:22px;
     padding:10px 5px 0 5px;
 }
-#choiceContainer section:nth-child(5) {
-    padding:40px 10px 0 10px;
-}
+
 section ul{
     height: 100vh;
     width:100%;
@@ -144,12 +142,10 @@ ul li input{
     display:none;
  }
   /* Adding some spacing on enviroments */
-#enviroments{
- padding-top:20px;
-}
+
 ul li input + img{
     filter: grayscale(50%);
-    opacity:0.8;
+    opacity:0.9;
     transition:filter .3s ease-in;
     transition:opacity .3s ease-in;
 }
@@ -207,6 +203,8 @@ ul li input:checked + img{
 }
 
 
+
+    /*      Media Querys      */
 @media (min-width: 995px){
     #characters li, #items li{
         padding-top: 333px;
