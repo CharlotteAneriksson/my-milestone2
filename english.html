@@ -29,19 +29,19 @@
             <ul class="row">
                 <li class="col-lg-4">
                     <label for="frog">
-                        <input type="radio" id="frog" name="character" value="frog" />
+                        <input type="radio" id="frog" name="character" value="frog" onclick="window.location='#enviroments';"/>
                         <img src="assets\img\frog.jpg" alt="frog"> 
                     </label>
                 </li>
                 <li class="col-lg-4">
                     <label for="butterfly">
-                        <input type="radio" id="butterfly" name="character" value="butterfly" />
+                        <input type="radio" id="butterfly" name="character" value="butterfly" onclick="window.location='#enviroments';"/>
                         <img src="assets\img\butterfly.jpg" alt="butterfly"> 
                     </label>
                 </li>
                 <li class="col-lg-4">
                     <label for="fox">
-                        <input type="radio" id="fox" name="character" value="butterfly" />
+                        <input type="radio" id="fox" name="character" value="fox" onclick="window.location='#enviroments';"/>
                         <img src="assets\img\fox.jpg" alt="fox"> 
                     </label>
                 </li>
@@ -51,18 +51,19 @@
             <ul class="row">
                 <li class="col-12">
                     <label for="city">
-                        <input type="radio" id="city" name="enviroment" value="city" />
+                        <input type="radio" id="city" name="enviroment" value="city" onclick="window.location='#items';"/>
                         <img src="assets\img\city.jpg" alt="city"> 
                     </label>
                 </li>
                 <li class="col-12">
                     <label for="forest">
-                        <input type="radio" id="forest" name="enviroment" value="forest" />
+                        <input type="radio" id="forest" name="enviroment" value="forest" onclick="window.location='#items';"/>
                         <img src="assets\img\forest.jpg" alt="forest"> 
-                    </label>                    </li>
+                    </label>                    
+                </li>
                 <li class="col-12">
                     <label for="ocean">
-                        <input type="radio" id="ocean" name="enviroment" value="ocean" />
+                        <input type="radio" id="ocean" name="enviroment" value="ocean" onclick="window.location='#items';"/>
                         <img src="assets\img\ocean.jpg" alt="ocean"> 
                     </label>                    
                 </li>
@@ -72,25 +73,25 @@
             <ul class="row">
                 <li class="col-lg-4">
                     <label for="boots">
-                        <input type="radio" id="boots" name="item" value="boots" />
+                        <input type="radio" id="boots" name="item" value="boots" onclick="window.location='#ready';"/>
                         <img src="assets\img\boots.jpg" alt="boots"> 
                     </label>
                 </li>
                 <li class="col-lg-4">
                     <label for="clock">
-                        <input type="radio" id="clock" name="item" value="clock" />
+                        <input type="radio" id="clock" name="item" value="clock" onclick="window.location='#ready';"/>
                         <img src="assets\img\clock.jpg" alt="clock"> 
                     </label>                    
                 </li>
                 <li class="col-lg-4">
                     <label for="umbrella">
-                        <input type="radio" id="umbrella" name="item" value="umbrella" />
+                        <input type="radio" id="umbrella" name="item" value="umbrella" onclick="window.location='#ready';"/>
                         <img src="assets\img\umbrella.jpg" alt="umbrella"> 
                     </label>                    
                 </li>
             </ul>
         </section>
-        <section>
+        <section id="ready">
                <p>Are you ready?</p>
             <div class="row">
                 <div class="col-12 greenButton">
@@ -101,9 +102,10 @@
                 </div>
             </div>
         </section>
-    </div>
-        <script type="text/javascript" src="scripts\main.js"></script>
-        <script src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
+    </div>        
         
+        <script src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
+        <script type="text/javascript" src="scripts\main.js"></script>
+
     </body>
 </html>
