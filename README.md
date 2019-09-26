@@ -56,7 +56,7 @@
   * Orange
       This color will draw attention and might make a person feel enthusiasm, balance and wormth. Is is according to science a welcoming color.
     <br />
-    #e2985d 
+    #e2985d
     <p align="center">
       <img width="300" height="100" src="assets\colors\color2.jpg" alt="purple color">
     </p>
