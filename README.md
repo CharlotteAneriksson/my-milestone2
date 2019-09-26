@@ -13,7 +13,8 @@
 1. **The Parent**
 2. **All parents, sibblings or other family**
 3. **Children**
-    * Childen from 2-7
+    * Childen from age 2-7 years
+
 
 #### User
 1. **Make time for both technologies and familytime**
@@ -47,6 +48,7 @@
       Two friends, two sibblings are together reading a story. The picture reminds me of building relationships and trust.
       * **bg3** 
       Reminds me and my brothers kids of a cosy cabbin built with cushions and bedsheets hihi. So cozy!
+    * Along side with the pictures i chose to create vector graphic in Adobe Illustrator. Tried to create playful and simple graphics that every child could relate to somehow and the characters are created with a smile. Maybe a butterfly cant wear boots for us adults but for a child they can. Playful imagination is important.
 2. Colors 
     <p align="center">
       <img width="300" height="100" src="assets\colors\color1.jpg" alt="orange color">

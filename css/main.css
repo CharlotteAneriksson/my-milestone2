@@ -13,6 +13,8 @@ html, body{
     margin:0;
     padding:0;
     box-sizing: content-box;
+    scroll-behavior: smooth;
+    scroll-snap-type: y mandatory;
 }
 body {
     font-family: 'Fredoka One', cursive;
@@ -110,10 +112,12 @@ footer button:hover{
 
 #choiceContainer{
     height:100vh;
+   
 }
 #choiceContainer section{
     height:100vh;
     text-align: center;
+    
 }
 #choiceContainer section > h1{
     padding:40px 10px 0 10px;
@@ -139,7 +143,21 @@ ul li img{
 ul li input{
     display:none;
  }
-
+  /* Adding some spacing on enviroments */
+#enviroments{
+ padding-top:20px;
+}
+ul li input + img{
+    filter: grayscale(50%);
+    opacity:0.8;
+    transition:filter .3s ease-in;
+    transition:opacity .3s ease-in;
+}
+ul li input:checked + img{
+    filter: grayscale(0%);
+    opacity:1;
+    /*border:1px solid #333;*/
+}
 
 
     /*      Buttons      */
@@ -186,4 +204,11 @@ ul li input{
     position: relative;     /* Best position to fit all screensizes */
     top:50px;
     left:0;
+}
+
+
+@media (min-width: 995px){
+    #characters li, #items li{
+        padding-top: 333px;
+    }
 }
