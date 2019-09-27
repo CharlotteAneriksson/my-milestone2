@@ -27,13 +27,13 @@
             </div>
         </main>
         <footer class="col-12">
-            <button id="btn-howItWorks" onclick="openInfo()">
+            <button id="open">
                 <i class="fa fa-question-circle" aria-hidden="true"></i>
                 <span class="sr-only" lang="en">questionmark</span>
                 <span class="sr-only">frågetecken</span>
             </button>
             <div class="row" id="showHowItWorks">
-                <button onclick="closeInfo()">
+                <button id ="close">
                         <i class="fa fa-times-circle" aria-hidden="true"></i>
                         <span class="sr-only" lang="en">close infobox</span>
                         <span class="sr-only">stäng info</span>
@@ -51,8 +51,14 @@
                         När du är klar klickar du ok och sagan kommer levereras till dig på nästkommande sida.<br /> Njut av sagostunden !</p>
                 </div>
             </div>
-        </footer>        
+        </footer>   
         
+        <!-- My audio files -->
+        <audio id="openInfo" src="assets/audio/open.mp3"></audio>
+        <audio id="closeInfo" src="assets/audio/close.mp3"></audio>
+
+        <!-- Scripts -->
+        <script src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
         <script src="scripts/landing.js"></script>
 </body>
 </html>

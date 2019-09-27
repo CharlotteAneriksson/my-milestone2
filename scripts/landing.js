@@ -33,23 +33,28 @@ greeting();
 
 //End of Welcomephrase
 
-// Information button - toggle info show/hide
-var mySounds = new Audio ();
-var soundList = new Array ('assets/audio/open.mp3', 'assets/audio/close.mp3');
 
-function openInfo(){
-    mySounds.src = soundList[0];
-    mySounds.play();
-    showHowItWorks.style.visibility="visible"
-    
-}
-function closeInfo(){
-    mySounds.src = soundList[1];
-    mySounds.play();
-    showHowItWorks.style.visibility="hidden"
-    
-}
+// Information button - info show/hide with additional sounds jQuery
+$('document').ready(function(){
+    $('#open').click(function() {
+        playOpenAudio();
+    });
+    $('#close').click(function(){
+        playCloseAudio();
+    });
+});
 
+function playOpenAudio() {
+    $('#openInfo')[0].currentTime = 0;
+    $('#openInfo')[0].play();
+    $('#showHowItWorks').css('visibility', 'visible');
+}
+function playCloseAudio(){
+    $('#closeInfo')[0].currentTime = 0;
+    $('#closeInfo')[0].play();
+    $('#showHowItWorks').css('visibility', 'hidden');
+
+}
 
 
 
