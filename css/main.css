@@ -149,9 +149,12 @@ section ul{
 ul li:nth-child(3n){
     height: 100vh;
 }
-    /*Space the pictures out on small screens*/
-ul li:nth-child(4), ul li:nth-child(5), ul li:nth-child(6) img{
+    /*Space out the pictures on small screens*/
+ul li:nth-child(n+4) img{
     padding-top:100px;
+}
+ul li:nth-child(n+7) img{
+    padding-top:0;
 }
 ul li{
    list-style-type: none;
@@ -165,18 +168,21 @@ ul li img{
 ul li input{
     display:none;
  }
-  /* Adding some spacing on enviroments */
-
-ul li input + img{
-    filter: grayscale(50%);
-    opacity:0.9;
+    /* Make sure the user knows whats selected */
+ul li input:not(:checked) + img{
+    filter: grayscale(0%);
+    opacity:1;
     transition:filter .3s ease-in;
     transition:opacity .3s ease-in;
 }
+ul li input + img{
+    filter: grayscale(100%);
+    opacity:0.6;
+}
 ul li input:checked + img{
-    filter: grayscale(0%);
-    opacity:1;
-    /*border:1px solid #333;*/
+    border:1px solid #333;
+    border-radius: 20px;
+   
 }
 
 
