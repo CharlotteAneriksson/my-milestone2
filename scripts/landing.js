@@ -38,14 +38,16 @@ var mySounds = new Audio ();
 var soundList = new Array ('assets/audio/open.mp3', 'assets/audio/close.mp3');
 
 function openInfo(){
-    showHowItWorks.style.visibility="visible"
     mySounds.src = soundList[0];
     mySounds.play();
+    showHowItWorks.style.visibility="visible"
+    
 }
 function closeInfo(){
-    showHowItWorks.style.visibility="hidden"
     mySounds.src = soundList[1];
     mySounds.play();
+    showHowItWorks.style.visibility="hidden"
+    
 }
 
 
