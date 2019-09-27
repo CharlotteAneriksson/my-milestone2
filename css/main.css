@@ -10,6 +10,7 @@ html {
     height: 100%;
 }
 html, body{
+
     margin:0;
     padding:0;
     box-sizing: content-box;
@@ -41,7 +42,7 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
 }
-/*ADD ON*/{
+#ready{
     background-image: url("../assets/img/bg3.jpg");
     background-position: center left;
     background-repeat: no-repeat;
@@ -112,32 +113,44 @@ footer button:hover{
 
 #choiceContainer{
     height:100vh;
-   
 }
 #choiceContainer section{
     height:100vh;
     text-align: center;
-    
 }
 #choiceContainer section > h1{
     padding:40px 10px 0 10px;
 }
-#choiceContainer section > p{
+#choiceContainer section > p, #ready p{
     font-size:22px;
     padding:10px 5px 0 5px;
 }
 
+#ready{
+    height:100vh;
+    width:100vw;
+} 
+ /* Make ul list fullpage*/
 section ul{
     height: 100vh;
     width:100%;
+}
+ul li:nth-child(3n){
+    height: 100vh;
+}
+    /*Space the pictures out on small screens*/
+ul li:nth-child(4), ul li:nth-child(5), ul li:nth-child(6) img{
+    padding-top:100px;
 }
 ul li{
    list-style-type: none;
    padding:20px 0 0 0;
 }
+    /* Get the pic to resize n follow the screen sixe */
 ul li img{
     width:100%;
 }
+    /*Show pic instead of radio button */
 ul li input{
     display:none;
  }
@@ -198,7 +211,7 @@ ul li input:checked + img{
 .backLast{      /* Added a class for back-link do to the positioning */
     margin:0 auto;
     position: relative;     /* Best position to fit all screensizes */
-    top:50px;
+    bottom:100px;
     left:0;
 }
 
@@ -206,7 +219,7 @@ ul li input:checked + img{
 
     /*      Media Querys      */
 @media (min-width: 995px){
-    #characters li, #items li{
+    ul li:nth-child(-n+3), ul li:nth-child(n+7){
         padding-top: 333px;
     }
 }
