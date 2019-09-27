@@ -39,7 +39,7 @@
     * The importance of mobilefirst is very great if you wanna grow the range of visitors or users.
 
 ### Design
-1. UX User Experience
+1. **UX User Experience**
     * My UX is made to be simple and easy to understand even for the youngest of children useing the App. 
     * Photos are well thought out, they are there to create feelings and well thought out connections.
       * **bg1** 
@@ -49,7 +49,7 @@
       * **bg3** 
       Reminds me and my brothers kids of a cosy cabbin built with cushions and bedsheets hihi. So cozy!
     * Along side with the pictures i chose to create vector graphic in Adobe Illustrator. Tried to create playful and simple graphics that every child could relate to somehow and the characters are created with a smile. Maybe a butterfly cant wear boots for us adults but for a child they can. Playful imagination is important.
-2. Colors 
+2. **Colors** 
     <p align="center">
       <img width="300" height="100" src="assets\colors\color1.jpg" alt="orange color">
     </p>
@@ -70,6 +70,9 @@
   * Green 
     Has a calming and refreshing effect and its the most kind to the eye. Is a symbol for nature and could induce feelings like analytical, calm, wealth and pure.  
     #adba60
+
+3. **Fonts**
+  * ```font-family: 'Source Sans Pro', sans-serif;´´´ 
 
 ## Features 
 1. #### Language choice
