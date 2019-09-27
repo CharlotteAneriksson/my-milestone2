@@ -3,6 +3,7 @@
 ##### Charlotte Aneriksson presents Milestone 2 
 ###### Storytelling app for kids
 
+---
 
 ## UX & UI
 ### What it is
@@ -14,7 +15,6 @@
 2. **All parents, sibblings or other family**
 3. **Children**
     * Childen from age 2-7 years
-
 
 #### User
 1. **Make time for both technologies and familytime**
@@ -73,6 +73,11 @@
 
 3. **Fonts**
   * *font-family: 'Source Sans Pro', sans-serif;*
+    * This font is used in the information text do to the more seriousness of that text. It's ment to be read by parents and its a font you usually see in instuctional texts.
+  * *font-family: 'Fredoka One', cursive;*
+    * This is the main font of the page. Its a font with roundness in style, eazy to read ability and its usually seen in kids books, games and apps do to its playfulness.
+
+---
 
 ## Features 
 1. #### Language choice
@@ -94,7 +99,9 @@ It is free and you can use it in commercial use and for your own use. Credit isn
  ### Vector-graphics
  * All vectors are created by [Charlotte Aneriksson](https://www.linkedin.com/in/charlotte-aneriksson-157345186/)
 
+## Acknowledgements
 
+---
 
 ## Technologies
 ### Technologies used 
@@ -111,7 +118,6 @@ It is free and you can use it in commercial use and for your own use. Credit isn
 * Font Awesome - Similar to google fonts but more of font and icon based toolkit, available both for free and for a fee. 
   * Icons 
 
---- 
 
 ### Deployment
 * Tools used for deployment
@@ -123,7 +129,7 @@ It is free and you can use it in commercial use and for your own use. Credit isn
 3. Scroll down to **GitHub Pages** > **Source** and select **master branch**
 4. Once selected its deployed. Copy **link** and paste into README.md 
 
- 
+---
 
 ## Validations, Testing & Adjustments 
 Autoprefixers from - https://autoprefixer.github.io/
@@ -147,3 +153,7 @@ Validation of CSS3 - https://jigsaw.w3.org/css-validator/
 2. Iphone
 
 ## Bugs and Bugfixers
+
+
+
+---
