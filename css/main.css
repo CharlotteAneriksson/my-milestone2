@@ -125,15 +125,26 @@ footer button:hover{
     font-size:22px;
     padding:10px 5px 0 5px;
 }
-
 #ready{
     height:100vh;
     width:100vw;
 } 
  /* Make ul list fullpage*/
+ section form{
+     width:100%;
+ }
 section ul{
-    height: 100vh;
+    height:100%;
     width:100%;
+}
+.row{
+    margin-left:0;
+}
+section ul{
+    margin-bottom:0;
+    padding-inline-start:0;
+    margin-block-start: 0;
+    margin-block-end: 0;
 }
 ul li:nth-child(3n){
     height: 100vh;
@@ -219,7 +230,7 @@ ul li input:checked + img{
 
     /*      Media Querys      */
 @media (min-width: 995px){
-    ul li:nth-child(-n+3), ul li:nth-child(n+7){
+    ul li:nth-child(-n+3), ul li:nth-child(n+7){ 
         padding-top: 333px;
     }
 }
