@@ -72,7 +72,7 @@
     #adba60
 
 3. **Fonts**
-  * ```font-family: 'Source Sans Pro', sans-serif;´´´ 
+  * *font-family: 'Source Sans Pro', sans-serif;*
 
 ## Features 
 1. #### Language choice
