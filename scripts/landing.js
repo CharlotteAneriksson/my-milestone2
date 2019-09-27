@@ -34,11 +34,18 @@ greeting();
 //End of Welcomephrase
 
 // Information button - toggle info show/hide
+var mySounds = new Audio ();
+var soundList = new Array ('assets/audio/open.mp3', 'assets/audio/close.mp3');
+
 function openInfo(){
     showHowItWorks.style.visibility="visible"
+    mySounds.src = soundList[0];
+    mySounds.play();
 }
 function closeInfo(){
     showHowItWorks.style.visibility="hidden"
+    mySounds.src = soundList[1];
+    mySounds.play();
 }
 
 

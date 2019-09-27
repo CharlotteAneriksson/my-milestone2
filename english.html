@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
     <link rel="stylesheet" href="css/main.css">
-    <script type="text/javascript" src="scripts\main.js"></script>
+    <script type="text/javascript" src="scripts/main.js"></script>
 </head>
 <body>
     <div id="choiceContainer">
@@ -30,58 +30,40 @@
             <form id="selections" name="selections">
                 <ul class="row">
                     <li class="col-lg-4" id="characters">
-                        <label for="frog">
-                            <input type="radio" id="frog" name="character" value="frog" onclick="window.location='#enviroments';"/>
-                            <img src="assets\img\frog.jpg" alt="frog"> 
-                        </label>
+                        <input type="radio" id="frog" name="character" value="frog" onclick="playAudio()"/>
+                        <label for="frog"><img src="assets\img\frog.jpg" alt="frog"></label>
                     </li>
                     <li class="col-lg-4">
-                        <label for="butterfly">
-                            <input type="radio" id="butterfly" name="character" value="butterfly" onclick="window.location='#enviroments';"/>
-                            <img src="assets\img\butterfly.jpg" alt="butterfly"> 
-                        </label>
+                        <input type="radio" id="butterfly" name="character" value="butterfly" onclick="playAudio()"/>
+                        <label for="butterfly"><img src="assets\img\butterfly.jpg" alt="butterfly"></label>
                     </li>
                     <li class="col-lg-4">
-                        <label for="fox">
-                            <input type="radio" id="fox" name="character" value="fox" onclick="window.location='#enviroments';"/>
-                            <img src="assets\img\fox.jpg" alt="fox"> 
-                        </label>
+                        <input type="radio" id="fox" name="character" value="fox" onclick="playAudio()"/>
+                        <label for="fox"><img src="assets\img\fox.jpg" alt="fox"></label>
                     </li>
                     <li class="col-12" id="enviroments">
-                        <label for="city">
-                            <input type="radio" id="city" name="enviroment" value="city" onclick="window.location='#items';"/>
-                            <img src="assets\img\city.jpg" alt="city"> 
-                        </label>
+                        <input type="radio" id="city" name="enviroment" value="city" onclick="playAudio()"/>
+                        <label for="city"><img src="assets\img\city.jpg" alt="city"></label>
                     </li>
                     <li class="col-12">
-                        <label for="forest">
-                            <input type="radio" id="forest" name="enviroment" value="forest" onclick="window.location='#items';"/>
-                            <img src="assets\img\forest.jpg" alt="forest"> 
-                        </label>                    
+                        <input type="radio" id="forest" name="enviroment" value="forest" onclick="playAudio()"/>
+                        <label for="forest"><img src="assets\img\forest.jpg" alt="forest"></label>                    
                     </li>
                     <li class="col-12">
-                        <label for="ocean">
-                            <input type="radio" id="ocean" name="enviroment" value="ocean" onclick="window.location='#items';"/>
-                            <img src="assets\img\ocean.jpg" alt="ocean"> 
-                        </label>                    
+                        <input type="radio" id="ocean" name="enviroment" value="ocean" onclick="playAudio()"/>
+                        <label for="ocean"><img src="assets\img\ocean.jpg" alt="ocean"></label>                    
                     </li>
                     <li class="col-lg-4"  id="items">
-                        <label for="boots">
-                            <input type="radio" id="boots" name="item" value="boots" onclick="window.location='#ready';"/>
-                            <img src="assets\img\boots.jpg" alt="boots"> 
-                        </label>
+                        <input type="radio" id="boots" name="item" value="boots" onclick="playAudio()"/>
+                        <label for="boots"><img src="assets\img\boots.jpg" alt="boots"></label>
                     </li>
                     <li class="col-lg-4" >
-                        <label for="clock">
-                            <input type="radio" id="clock" name="item" value="clock" onclick="window.location='#ready';"/>
-                            <img src="assets\img\clock.jpg" alt="clock"> 
-                        </label>                    
+                        <input type="radio" id="clock" name="item" value="pocketWatch" onclick="playAudio()"/>
+                        <label for="clock"><img src="assets\img\clock.jpg" alt="pocketwatch"></label>                    
                     </li>
                     <li class="col-lg-4">
-                        <label for="umbrella">
-                            <input type="radio" id="umbrella" name="item" value="umbrella" onclick="window.location='#ready';"/>
-                            <img src="assets\img\umbrella.jpg" alt="umbrella"> 
-                        </label>                    
+                        <input type="radio" id="umbrella" name="item" value="umbrella" onclick="playAudio()"/>
+                        <label for="umbrella"><img src="assets\img\umbrella.jpg" alt="umbrella"></label>                    
                     </li>
                     <div class="col-12 greenButton" id="ready">
                         <p>Are you ready?</p>

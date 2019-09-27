@@ -10,7 +10,6 @@ html {
     height: 100%;
 }
 html, body{
-
     margin:0;
     padding:0;
     box-sizing: content-box;
@@ -169,17 +168,17 @@ ul li input{
     display:none;
  }
     /* Make sure the user knows whats selected */
-ul li input:not(:checked) + img{
+ul li input:not(:checked) + label{
     filter: grayscale(0%);
     opacity:1;
     transition:filter .3s ease-in;
     transition:opacity .3s ease-in;
 }
-ul li input + img{
+ul li input + label{
     filter: grayscale(100%);
     opacity:0.6;
 }
-ul li input:checked + img{
+ul li input:checked + label > img{
     border:1px solid #333;
     border-radius: 20px;
 }
