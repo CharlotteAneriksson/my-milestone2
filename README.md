@@ -99,6 +99,14 @@ It is free and you can use it in commercial use and for your own use. Credit isn
  ### Vector-graphics
  * All vectors are created by [Charlotte Aneriksson](https://www.linkedin.com/in/charlotte-aneriksson-157345186/)
 
+ ### Articles
+  * Read about psuedo classes :not checked [in this article](https://stackoverflow.com/questions/8846075/css3-unchecked-pseudo-class)
+  * Learned about nth:child in [Sara Copes](https://css-tricks.com/almanac/selectors/n/nth-child/) article. She also linkes to a great math explaination from the author [Chris Coyier](https://css-tricks.com/how-nth-child-works/) 
+
+  ### Audio 
+    * Im getting my audio files from [Sound Jay](https://www.soundjay.com/index.html) which is a free soundeffect website.
+    *Its free to use on websited and in projects but not allowed to spread as your own.* Read more about the licens on their website.
+
 ## Acknowledgements
 
 ---

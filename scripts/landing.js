@@ -33,7 +33,6 @@ greeting();
 
 //End of Welcomephrase
 
-
 // Information button - info show/hide with additional sounds jQuery
 $('document').ready(function(){
     $('#open').click(function() {
@@ -53,7 +52,6 @@ function playCloseAudio(){
     $('#closeInfo')[0].currentTime = 0;
     $('#closeInfo')[0].play();
     $('#showHowItWorks').css('visibility', 'hidden');
-
 }
 
 

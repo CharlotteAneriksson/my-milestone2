@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
     <link rel="stylesheet" href="css/main.css">
-    <script type="text/javascript" src="scripts/main.js"></script>
+    
 </head>
 <body>
     <div id="choiceContainer">
@@ -30,39 +30,39 @@
             <form id="selections" name="selections">
                 <ul class="row">
                     <li class="col-lg-4" id="characters">
-                        <input type="radio" id="frog" name="character" value="frog" onclick="playAudio()"/>
+                        <input type="radio" id="frog" name="character" value="frog"/>
                         <label for="frog"><img src="assets\img\frog.jpg" alt="frog"></label>
                     </li>
                     <li class="col-lg-4">
-                        <input type="radio" id="butterfly" name="character" value="butterfly" onclick="playAudio()"/>
+                        <input type="radio" id="butterfly" name="character" value="butterfly"/>
                         <label for="butterfly"><img src="assets\img\butterfly.jpg" alt="butterfly"></label>
                     </li>
                     <li class="col-lg-4">
-                        <input type="radio" id="fox" name="character" value="fox" onclick="playAudio()"/>
+                        <input type="radio" id="fox" name="character" value="fox"/>
                         <label for="fox"><img src="assets\img\fox.jpg" alt="fox"></label>
                     </li>
                     <li class="col-12" id="enviroments">
-                        <input type="radio" id="city" name="enviroment" value="city" onclick="playAudio()"/>
+                        <input type="radio" id="city" name="enviroment" value="city" onclick=""/>
                         <label for="city"><img src="assets\img\city.jpg" alt="city"></label>
                     </li>
                     <li class="col-12">
-                        <input type="radio" id="forest" name="enviroment" value="forest" onclick="playAudio()"/>
+                        <input type="radio" id="forest" name="enviroment" value="forest"/>
                         <label for="forest"><img src="assets\img\forest.jpg" alt="forest"></label>                    
                     </li>
                     <li class="col-12">
-                        <input type="radio" id="ocean" name="enviroment" value="ocean" onclick="playAudio()"/>
+                        <input type="radio" id="ocean" name="enviroment" value="ocean"/>
                         <label for="ocean"><img src="assets\img\ocean.jpg" alt="ocean"></label>                    
                     </li>
                     <li class="col-lg-4"  id="items">
-                        <input type="radio" id="boots" name="item" value="boots" onclick="playAudio()"/>
+                        <input type="radio" id="boots" name="item" value="boots"/>
                         <label for="boots"><img src="assets\img\boots.jpg" alt="boots"></label>
                     </li>
                     <li class="col-lg-4" >
-                        <input type="radio" id="clock" name="item" value="pocketWatch" onclick="playAudio()"/>
+                        <input type="radio" id="clock" name="item" value="pocketWatch"/>
                         <label for="clock"><img src="assets\img\clock.jpg" alt="pocketwatch"></label>                    
                     </li>
                     <li class="col-lg-4">
-                        <input type="radio" id="umbrella" name="item" value="umbrella" onclick="playAudio()"/>
+                        <input type="radio" id="umbrella" name="item" value="umbrella"/>
                         <label for="umbrella"><img src="assets\img\umbrella.jpg" alt="umbrella"></label>                    
                     </li>
                     <div class="col-12 greenButton" id="ready">
@@ -75,6 +75,11 @@
                 </ul> 
             </form>
         </section>
-    </div>        
+    </div> 
+
+    <audio id="frogSound" src="assets/audio/selection.mp3"></audio>
+
+    <script src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
+    <script src="scripts/main.js"></script>       
 </body>
 </html>

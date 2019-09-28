@@ -1,32 +1,25 @@
-var messege = "You have selected this";
+// Scroll to next when selection made
 
-function playAudio(){
-    var userSelections = document.getElementsByTagName("input");
-    if(userSelections[0].checked){
-        alert(messege);
-    }
-    else if(userSelections[1].checked){
-        alert("butterfly selected");
-    }
-    else if(userSelections[2].checked){
-        alert("fox selected");
-    }
-    else if(userSelections[3].checked){
-        alert("city selected");
-    }
-    else if(userSelections[4].checked){
-        alert("forest selected");
-    }
-    else if(userSelections[5].checked){
-        alert("ocean selected");
-    }
-    else if(userSelections[6].checked){
-        alert("boots selected");
-    }
-    else if(userSelections[7].checked){
-        alert("pocketwatch selected");
-    }
-    else if(userSelections[8].checked){
-        alert("umbrella selected");
-    }
+$("document").ready(function(){
+    $("[name=character]").click(function(){
+        window.location = "#enviroments";
+    });
+    $("[name=enviroment]").click(function(){
+        window.location = "#items";
+    });
+    $("[name=item]").click(function(){
+        window.location = "#ready";
+    });
+});
+
+// Play sound when input gets checked
+
+$(":input").click(function(){
+    playCheckedAudio();
+})
+function playCheckedAudio(){
+    $("#frogSound")[0].currentTime = 0;
+    $("#frogSound")[0].play();
 }
+
+
