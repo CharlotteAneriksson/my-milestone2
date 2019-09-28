@@ -3,7 +3,6 @@ var welcomeArr = [`Hey, <span>its story time</span>`, `Hej, <span> tid för sago
 var i = 0;
 var heading = document.querySelector("#two-language-heading");
 
-
 function greeting(){
     //Tell JS where and what should appear
     heading.innerHTML = welcomeArr[i];
@@ -33,27 +32,28 @@ greeting();
 
 //End of Welcomephrase
 
-// Information button - info show/hide with additional sounds jQuery
-$('document').ready(function(){
-    $('#open').click(function() {
+// All buttons - Actions and Sounds
+$("document").ready(function(){
+    $("#open").click(function() {
         playOpenAudio();
     });
-    $('#close').click(function(){
+    $("#close").click(function(){
         playCloseAudio();
     });
 });
 
 function playOpenAudio() {
-    $('#openInfo')[0].currentTime = 0;
-    $('#openInfo')[0].play();
-    $('#showHowItWorks').css('visibility', 'visible');
+    $("#openInfo")[0].currentTime = 0;
+    $("#openInfo")[0].play();
+    $("#openInfo").prop("volume", 0.1);
+    $("#showHowItWorks").css("visibility", "visible");
 }
+
 function playCloseAudio(){
-    $('#closeInfo')[0].currentTime = 0;
-    $('#closeInfo')[0].play();
-    $('#showHowItWorks').css('visibility', 'hidden');
+    $("#closeInfo")[0].currentTime = 0;
+    $("#closeInfo")[0].play();
+    $("#closeInfo").prop("volume", 0.1);
+    $("#showHowItWorks").css("visibility", "hidden");
 }
-
-
 
 

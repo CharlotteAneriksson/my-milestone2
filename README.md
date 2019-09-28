@@ -104,8 +104,9 @@ It is free and you can use it in commercial use and for your own use. Credit isn
   * Learned about nth:child in [Sara Copes](https://css-tricks.com/almanac/selectors/n/nth-child/) article. She also linkes to a great math explaination from the author [Chris Coyier](https://css-tricks.com/how-nth-child-works/) 
 
   ### Audio 
-    * Im getting my audio files from [Sound Jay](https://www.soundjay.com/index.html) which is a free soundeffect website.
+    * Im getting most of my audio files from [Sound Jay](https://www.soundjay.com/index.html) which is a free soundeffect website.
     *Its free to use on websited and in projects but not allowed to spread as your own.* Read more about the licens on their website.
+    * The *magic wand* sound effect that you'll here while the story is getting written is downloaded from an artist at [FreeSound](https://freesound.org/people/Soughtaftersounds/) with a CC - Attribution licens.
 
 ## Acknowledgements
 
