@@ -29,28 +29,28 @@ $(".ready-button").click(function(){
     $("#magic-wand")[0].play();
     $("#magic-wand").prop("volume", 0.1);
 });
-// Get all combinations and store them in a variable
-    var character = document.selections.character.value;
-    var enviroment = document.selections.enviroment.value;
-    var item = document.selections.item.value;
 
-    if(character == "frog"){
-        let frog = character;
-    }
+// Get the input value
 
-function writeStory(){
-    if((frog).checked){
-        console.log("you choose frog")
-    }
-}
-/*
-    if(character == "frog" && enviroment == "city" && item == "boots"){
-        combOne();
-    }
-}
 
-function combOne(){
-var combination = "frog, city and boots";
-        console.log(combination);
-}
-*/
+var firstParOfStory = ""; 
+var secondPart = "";
+
+function writeStory(myOption){
+        var character = document.getElementsByName("character"); 
+          
+        for(i = 0; i < character.length; i++) { 
+            if(character[i].type="radio") { 
+                if(character[i].checked) 
+                    console.log(firstParOfStory = " Once upon a time there was a " + character[i].value);
+            } 
+        } 
+        var enviroment = document.getElementsByName("enviroment"); 
+          
+        for(j = 0; j < enviroment.length; j++) { 
+            if(enviroment[j].type="radio") { 
+                if(enviroment[j].checked) 
+                    console.log(secondPart = " She was walking around in the " + enviroment[j].value);
+            } 
+        }
+    } 
