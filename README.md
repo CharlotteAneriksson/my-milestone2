@@ -7,6 +7,7 @@
     <img src="assets/wireframes/mokcup-childsGame.gif" alt="gif file of mobile mockup">   
 </p>
 
+
 ---
 
 ## UX & UI
