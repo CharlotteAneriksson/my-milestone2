@@ -4,7 +4,7 @@
 ###### Storytelling app for kids
     
 <p align="center">
-    <img width="350" height="200" src="assets/wireframes/mokcup-childsGame.gif" alt="gif file of mobile mockup">   
+    <img width="150" height="200" src="assets/wireframes/mokcup-childsGame.gif" alt="gif file of mobile mockup">   
 </p>
 
 
