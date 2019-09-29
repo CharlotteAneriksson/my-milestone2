@@ -31,9 +31,8 @@ $(".ready-button").click(function(){
     $("#storyContainer").css("display", "flex");
 });
 
-// Get the input value
 
-
+// Story variables
 var firstPart = "Once upon a time there was a "; 
 var secondPart = ` beautiful, courageous and strong.<br />Still young with its whole life ahead. <br />Living in their cozy nest with parents and one sister. Dreaming about one day traveling out to the big `;
 var thirdPart = `<br /> The magic world that everyone talks about.<br />What do you think? Lets imagine it together...`;

@@ -106,9 +106,11 @@ It is free and you can use it in commercial use and for your own use. Credit isn
   * The book [HeadFirst Javascript](https://www.oreilly.com/library/view/head-first-javascript/9781449340124/) helped me with creating algoritms on paper first. Mapping the problem first..
 
   ### Audio 
-    * Im getting most of my audio files from [Sound Jay](https://www.soundjay.com/index.html) which is a free soundeffect website.
+    * Im getting most of my audio files from [Sound Jay](https://www.soundjay.com/index.html) 
+      * It's a free soundeffect website.
     *Its free to use on websited and in projects but not allowed to spread as your own.* Read more about the licens on their website.
-    * The *magic wand* sound effect that you'll here while the story is getting written is downloaded from an artist at [FreeSound](https://freesound.org/people/Soughtaftersounds/) with a CC - Attribution licens.
+    * The *magic wand* sound effect that you'll hear white the story is created:
+      * [FreeSound](https://freesound.org/people/Soughtaftersounds/) with a CC - Attribution licens.
 
 
 ---
@@ -168,7 +170,7 @@ It is free and you can use it in commercial use and for your own use. Credit isn
 
 ## Bugs and Bugfixers
  * Bug with the vh on the ready-to write story part of the page
-  * Solution was to add positioning with css
+   * Solution was to add positioning with css
 
 
 ---
