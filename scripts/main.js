@@ -1,3 +1,10 @@
+// Only show page when user clicks start
+$("document").ready(function(){
+    $("#start").click(function(){
+        $(".selections").css("display", "block");
+    });
+});
+
 // Scroll to next when selection made
 
 $("document").ready(function(){
@@ -74,4 +81,6 @@ function writeStory(myOption) {
                 + fifthPart; 
             } 
         }
+        $("form").css("display", "none");
+        $("#startSection").css("display", "none");
     } 
