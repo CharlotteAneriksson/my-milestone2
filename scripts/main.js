@@ -38,24 +38,22 @@ var firstPart = "Once upon a time there was a ";
 var secondPart = " She was dreaming about living in the ";
 var thirdPart = " And brought what she always brings, the ";
 
-function writeStory(myOption){
+function writeStory(myOption) {
         
         document.getElementById("result").innerHTML = "";
         var character = document.getElementsByName("character"); 
-          
-        for(i = 0; i < character.length; i++) { 
-            if(character[i].type="radio") { 
-                if(character[i].checked) 
+        for (i = 0; i < character.length; i++) { 
+            if (character[i].type="radio") { 
+                if (character[i].checked) 
                 document.getElementById("result").innerHTML
                     += firstPart 
                     + character[i].value;
             }
         } 
         var enviroment = document.getElementsByName("enviroment"); 
-
-        for(j = 0; j < enviroment.length; j++) { 
-            if(enviroment[j].type="radio") { 
-                if(enviroment[j].checked) 
+        for (j = 0; j < enviroment.length; j++) { 
+            if (enviroment[j].type="radio") { 
+                if (enviroment[j].checked) 
                     document.getElementById("result").innerHTML
                     += secondPart 
                     + enviroment[j].value;
@@ -63,10 +61,9 @@ function writeStory(myOption){
             } 
         }
         var item = document.getElementsByName("item");
-
-        for(e = 0; e < enviroment.length; e++) { 
-            if(enviroment[e].type="radio") { 
-                if(enviroment[e].checked) 
+        for (e = 0; e < enviroment.length; e++) { 
+            if (enviroment[e].type="radio") { 
+                if (enviroment[e].checked) 
                 document.getElementById("result").innerHTML
                 += thirdPart 
                 + item[e].value;
