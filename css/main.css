@@ -251,7 +251,8 @@ ul li input:checked + label > img{
     display: none;     /* will be display flex with jQuery */
 }
 #result{
-    width:50%;
+    width:80%;
+    font-size:18px;
     margin:0 auto;
     padding:30px 10px;
     border-radius: 30px;

@@ -167,7 +167,8 @@ It is free and you can use it in commercial use and for your own use. Credit isn
 2. Iphone
 
 ## Bugs and Bugfixers
-
+ * Bug with the vh on the ready-to write story part of the page
+  * Solution was to add positioning with css
 
 
 ---
