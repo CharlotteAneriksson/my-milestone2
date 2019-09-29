@@ -251,10 +251,10 @@ ul li input:checked + label > img{
     display: none;     /* will be display flex with jQuery */
 }
 #result{
-    width:80%;
+    width:90%;
     font-size:18px;
     margin:0 auto;
-    padding:30px 10px;
+    padding:20px 10px;
     border-radius: 30px;
     background-color:rgba(255, 255, 255, 0.4);
 }
