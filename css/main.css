@@ -47,6 +47,12 @@ body {
     background-repeat: no-repeat;
     background-size: cover; 
 }
+#storyContainer{
+    background-image: url("../assets/img/bg4.jpg");
+    background-position: center left;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
     /*      Welcome phrase        */
 #two-language-heading{
     margin-top:30px;
@@ -234,7 +240,21 @@ ul li input:checked + label > img{
     left:0;
 }
 
-
+        /*      The story       */
+#storyContainer{
+    height: 100vh;
+    width:100%;
+    align-items: center;
+    justify-content: center;
+    display: none;     /* will be display flex with jQuery */
+}
+#result{
+    width:50%;
+    margin:0 auto;
+    padding:30px 0 30px 0;
+    border-radius: 30px;
+    background-color:rgba(255, 255, 255, 0.4);
+}
 
     /*      Media Querys      */
 @media (min-width: 995px){
