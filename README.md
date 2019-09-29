@@ -2,6 +2,10 @@
 
 ##### Charlotte Aneriksson presents Milestone 2 
 ###### Storytelling app for kids
+    
+<p align="center">
+    <img src="assets/wireframes/mokcup-childsGame.gif" alt="gif file of mobile mockup">   
+</p>
 
 ---
 
@@ -111,7 +115,6 @@ It is free and you can use it in commercial use and for your own use. Credit isn
 2. [FreeSound](https://freesound.org/people/Soughtaftersounds/) 
     * The *magic wand* sound effect that you'll hear white the story is created, comes with a CC - Attribution licens.
 
-
 ---
 
 ## Technologies
@@ -127,7 +130,7 @@ It is free and you can use it in commercial use and for your own use. Credit isn
 * Google fonts - Free library of approximately 900 fonts, Font do matter !
   * Linked from head tag in a stylesheet link. Do not use @import do to the negative impact it can have on the web pafe performance.
 * Font Awesome - Similar to google fonts but more of font and icon based toolkit, available both for free and for a fee. 
-  * Icons 
+  * Icons question-mark and cross
 
 
 ### Deployment
@@ -170,6 +173,9 @@ It is free and you can use it in commercial use and for your own use. Credit isn
 ## Bugs and Bugfixers
  * Bug with the vh on the ready-to write story part of the page
    * Solution was to add positioning with css
+ * Slow sound on some mobiledevices 
+  * still searching for solutions
+
 
 
 ---
