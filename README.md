@@ -3,6 +3,7 @@
 ##### Charlotte Aneriksson presents Milestone 2 
 ###### Storytelling app for kids
 
+<img src="assets/wireframes/mokcup-childsGame.gif" alt="gif file of mobile mockup">
 ---
 
 ## UX & UI
