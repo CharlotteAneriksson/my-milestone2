@@ -165,11 +165,15 @@ It is free and you can use it in commercial use and for your own use. Credit isn
 ### Testing
 1. Desktop & Laptop
   * All linkes where clicked and tested if they were working proparly
-  * Browsers used:
-    * Chrome - 
-    * Edge - 
-    * Fireforx - 
+  * Browsertesting:
+    * Chrome - Works perfectly and looks great
+    * Edge - Works fine, looks great
+    * Fireforx - Work like it should, looks good
+    * Safari - On desktop it works fine, small issues in mobile
 2. Iphone
+  * Github link works perfectly, looks great
+  * With Chrome it works perfectly and looks great.
+  * With safari webbrowser there is some issue with closing button adn the css style 100vh 
 
 ## Bugs and Bugfixers
  * Bug with the vh on the ready-to write story part of the page
@@ -177,6 +181,6 @@ It is free and you can use it in commercial use and for your own use. Credit isn
  * Slow sound on some mobiledevices 
   * still searching for solutions
 
-
+ https://charlotteaneriksson.github.io/my-milestone2/
 
 ---
