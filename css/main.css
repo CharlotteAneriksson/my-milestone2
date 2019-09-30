@@ -220,7 +220,7 @@ ul li input:checked + label > img{
 .back{
     margin:0 auto;
     position: absolute;     /* Best position to fit all screensizes */
-    bottom:20px;
+    bottom:15px;
     left:0;
 }
 .back a, .greenButton a{

@@ -148,8 +148,10 @@ It is free and you can use it in commercial use and for your own use. Credit isn
 
 ## Validations, Testing & Adjustments 
  * Autoprefixers from - [this link](https://autoprefixer.github.io/)
+  * 
 
  * Validation of [HTML5](https://validator.w3.org/)
+  * 
 
  * Validation of [CSS3](https://jigsaw.w3.org/css-validator/)
 
@@ -160,7 +162,10 @@ It is free and you can use it in commercial use and for your own use. Credit isn
 ### Adjustments
 * Original landingpage UX
   * Changed the original UX to a more understandable one for the youngest kids. Changed the buttons into flags.
-  * Added a ?-button so that you can read about what it is and how it works. Good for the parent and maybe also good for older children or sibblings.
+  * Added a ? - button so that you can read about what it is and how it works. Good for the parent and maybe also good for older children or sibblings.
+* Hiding content with jQuery
+  * Hide the selection part before pressing start and hiding everything except the story when story is ready.
+  * Do to: Users wish, two parents ask for this in case the kid were trying to scroll the screen while reading.
 
 ### Testing
 1. Desktop & Laptop
@@ -178,9 +183,8 @@ It is free and you can use it in commercial use and for your own use. Credit isn
 ## Bugs and Bugfixers
  * Bug with the vh on the ready-to write story part of the page
    * Solution was to add positioning with css
- * Slow sound on some mobiledevices 
+ * Slow sound on iphone when visiting the github through facebooklink, not visiting through github on chrome though 
   * still searching for solutions
 
- https://charlotteaneriksson.github.io/my-milestone2/
 
 ---
