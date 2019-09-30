@@ -103,7 +103,7 @@ footer button:hover{
     color:#fafafa;
     position: fixed;
     width:100vw;
-    height:100vh;
+    height:100%;
     top:0;
     left:0;
     background-color:rgba(36, 36, 36, 0.9);
@@ -241,7 +241,7 @@ ul li input:checked + label > img{
 }
 .backLast{      /* Added a class for back-link do to the positioning */
     margin:0 auto;
-    position: relative;     /* Best position to fit all screensizes */
+    position: relative;     
     bottom:100px;
     left:0;
 }
@@ -267,5 +267,10 @@ ul li input:checked + label > img{
 @media (min-width: 995px){
     ul li:nth-child(-n+3), ul li:nth-child(n+7){ 
         padding-top: 333px;
+    }
+    #result{
+        width:70%;
+        font-size:20px;
+        padding:15px 15px;
     }
 }
