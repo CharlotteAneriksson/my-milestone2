@@ -39,11 +39,12 @@ $(".ready-button").click(function(){
 });
 
 
+
 // Story variables
 var firstPart = "Once upon a time there was a "; 
-var secondPart = ` beautiful, courageous and strong.<br />Still young with its whole life ahead. <br />Living in their cozy nest with parents and one sister. Dreaming about one day traveling out to the big `;
-var thirdPart = `<br /> The magic world that everyone talks about.<br />What do you think? Lets imagine it together...`;
-var forthPart = `<br />The day came and it was time to go. <br /> Finally it was time to travel the world. He knew exacly what to bring, the `;
+var secondPart = ` beautiful, courageous and strong. Still young with his whole life ahead. <br />Living in their cozy nest with parents and one sister. Dreaming about one day traveling out to the big `;
+var thirdPart = ` The magic world that everyone talks about.<br />What do you think? Lets imagine it together...`;
+var forthPart = `<br />The day came and it was time to go. Finally it was time to travel the world. He knew exacly what to bring, the `;
 var fifthPart = ` The luckiest item in the whole world. <br /> He had the best time, got a million friends and tought them to be courageous just like him.<br /> He lived happily ever after, godnight love!`;
 
 

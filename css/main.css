@@ -256,9 +256,9 @@ ul li input:checked + label > img{
 }
 #result{
     width:95%;
-    font-size:18px;
+    font-size:17px;
     margin:0 auto;
-    padding:10px 10px;
+    padding:8px 8px;
     border-radius: 30px;
     background-color:rgba(255, 255, 255, 0.4);
 }
