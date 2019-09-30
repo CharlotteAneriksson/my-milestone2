@@ -34,12 +34,8 @@ greeting();
 
 // All buttons - Actions and Sounds
 $("document").ready(function(){
-    $("#open").click(function() {
-        playOpenAudio();
-    });
-    $("#close").click(function(){
-        playCloseAudio();
-    });
+    $("#open").click(playOpenAudio);
+    $("#close").click(playCloseAudio);
 });
 
 function playOpenAudio() {
@@ -48,7 +44,6 @@ function playOpenAudio() {
     $("#openInfo").prop("volume", 0.1);
     $("#showHowItWorks").css("visibility", "visible");
 }
-
 function playCloseAudio(){
     $("#closeInfo")[0].currentTime = 0;
     $("#closeInfo")[0].play();

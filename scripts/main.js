@@ -21,9 +21,8 @@ $("document").ready(function(){
 
 // Play sound when input gets checked
 
-$(":input").click(function(){
-    playCheckedAudio();
-})
+$("#selections").find(":input").click(playCheckedAudio);
+
 function playCheckedAudio(){
     $("#selectionSound")[0].currentTime = 0;
     $("#selectionSound")[0].play();
@@ -58,8 +57,7 @@ function writeStory() {
         document.getElementById("result").innerHTML = "";
         var character = document.getElementsByName("character"); 
         for (i = 0; i < character.length; i++) { 
-            if (character[i].type="radio") { 
-                if (character[i].checked) 
+            if (character[i].checked)  { 
                 document.getElementById("result").innerHTML
                     += firstPart 
                     + character[i].value
@@ -68,8 +66,7 @@ function writeStory() {
         } 
         var enviroment = document.getElementsByName("enviroment"); 
         for (j = 0; j < enviroment.length; j++) { 
-            if (enviroment[j].type="radio") { 
-                if (enviroment[j].checked) 
+             if (enviroment[j].checked){ 
                     document.getElementById("result").innerHTML
                     += enviroment[j].value
                     + thirdPart
@@ -78,8 +75,7 @@ function writeStory() {
         }
         var item = document.getElementsByName("item");
         for (e = 0; e < enviroment.length; e++) { 
-            if (enviroment[e].type="radio") { 
-                if (enviroment[e].checked) 
+            if (enviroment[e].checked){ 
                 document.getElementById("result").innerHTML
                 += item[e].value
                 + fifthPart; 
@@ -96,8 +92,7 @@ function skrivSaga(){
         document.getElementById("result").innerHTML = "";
         var character = document.getElementsByName("character"); 
         for (i = 0; i < character.length; i++) { 
-            if (character[i].type="radio") { 
-                if (character[i].checked) 
+            if (character[i].checked){ 
                 document.getElementById("result").innerHTML
                     += svFirstPart
                     + character[i].value
@@ -106,8 +101,7 @@ function skrivSaga(){
         } 
         var enviroment = document.getElementsByName("enviroment"); 
         for (j = 0; j < enviroment.length; j++) { 
-            if (enviroment[j].type="radio") { 
-                if (enviroment[j].checked) 
+            if (enviroment[j].checked) { 
                     document.getElementById("result").innerHTML
                     += enviroment[j].value
                     + svThirdPart
@@ -116,8 +110,7 @@ function skrivSaga(){
         }
         var item = document.getElementsByName("item");
         for (e = 0; e < enviroment.length; e++) { 
-            if (enviroment[e].type="radio") { 
-                if (enviroment[e].checked) 
+            if (enviroment[e].checked){ 
                 document.getElementById("result").innerHTML
                 += item[e].value
                 + svFithPart; 
