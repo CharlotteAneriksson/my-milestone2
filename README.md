@@ -7,7 +7,7 @@
     <img width="150" height="200" src="assets/wireframes/mokcup-childsGame.gif" alt="gif file of mobile mockup">   
 </p>
 
- https://charlotteaneriksson.github.io/my-milestone2/
+
 ---
 
 ## UX & UI
