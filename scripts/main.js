@@ -40,15 +40,20 @@ $(".ready-button").click(function(){
 
 
 
-// Story variables
-var firstPart = "Once upon a time there was a "; 
-var secondPart = ` beautiful, courageous and strong. Still young with his whole life ahead. <br />Living in their cozy nest with parents and one sister. Dreaming about one day traveling out to the big `;
-var thirdPart = ` The magic world that everyone talks about.<br />What do you think? Lets imagine it together...`;
-var forthPart = `<br />The day came and it was time to go. Finally it was time to travel the world. He knew exacly what to bring, the `;
-var fifthPart = ` The luckiest item in the whole world. <br /> He had the best time, got a million friends and tought them to be courageous just like him.<br /> He lived happily ever after, godnight love!`;
+// Story variables 
+const firstPart = "Once upon a time there was a "; 
+const secondPart = `, beautiful, courageous and strong. Still young with his whole life ahead. <br />Living in their cozy nest with parents and one sister. Dreaming about one day traveling out to the big `;
+const thirdPart = `. The magic world that everyone talks about.<br />What do you think, lets imagine it together...<br />`;
+const fourthPart = `The day eventually came. Finally it was time to travel the world. He knew exacly what to bring, the `;
+const fifthPart = `. The luckiest item in the whole world.<br />He had the best time, got a million friends and tought them to be courageous just like him.<br /> He lived happily ever after, godnight love!`;
 
+const svFirstPart = "Det var en gång en ";
+const svSecondPart = `, vacker, modig och stark. Fortfarande ung med hela livet framför sig.<br />Boende med mamma och pappa och en syster i deras mysiga näste. Drömmen var att en dag resa ut till den stora `;
+const svThirdPart = `. Den magiska världen alla pratade om.<br />Vad tror du, låt oss föreställa oss den tillsammans...<br />`;
+const svFourthPart = `Dagen kom äntligen, det var dags att fara. Dags att se världen. Hon visste precis var hon skulle ta med sig, ett `;
+const svFithPart = `. Det mest tursamma föremålet i hela världen.<br />Hon hade en otroligt resa, fick miljoner nya vänner som hon lärde att vara modiga precis som henne.<br />Snipp snapp snut så var sagan slut, sov gott hjärtat.`;
 
-function writeStory(myOption) {
+function writeStory() {
         
         document.getElementById("result").innerHTML = "";
         var character = document.getElementsByName("character"); 
@@ -57,7 +62,7 @@ function writeStory(myOption) {
                 if (character[i].checked) 
                 document.getElementById("result").innerHTML
                     += firstPart 
-                    + character[i].value + ","
+                    + character[i].value
                     + secondPart;
             }
         } 
@@ -67,9 +72,8 @@ function writeStory(myOption) {
                 if (enviroment[j].checked) 
                     document.getElementById("result").innerHTML
                     += enviroment[j].value
-                    + "."
                     + thirdPart
-                    + forthPart;
+                    + fourthPart;
             } 
         }
         var item = document.getElementsByName("item");
@@ -78,10 +82,47 @@ function writeStory(myOption) {
                 if (enviroment[e].checked) 
                 document.getElementById("result").innerHTML
                 += item[e].value
-                + "."
                 + fifthPart; 
             } 
         }
         $("form").css("display", "none");
         $("#startSection").css("display", "none");
     } 
+
+
+     // Write the swedish farytail
+function skrivSaga(){
+
+        document.getElementById("result").innerHTML = "";
+        var character = document.getElementsByName("character"); 
+        for (i = 0; i < character.length; i++) { 
+            if (character[i].type="radio") { 
+                if (character[i].checked) 
+                document.getElementById("result").innerHTML
+                    += svFirstPart
+                    + character[i].value
+                    + svSecondPart;
+            }
+        } 
+        var enviroment = document.getElementsByName("enviroment"); 
+        for (j = 0; j < enviroment.length; j++) { 
+            if (enviroment[j].type="radio") { 
+                if (enviroment[j].checked) 
+                    document.getElementById("result").innerHTML
+                    += enviroment[j].value
+                    + svThirdPart
+                    + svFourthPart;
+            } 
+        }
+        var item = document.getElementsByName("item");
+        for (e = 0; e < enviroment.length; e++) { 
+            if (enviroment[e].type="radio") { 
+                if (enviroment[e].checked) 
+                document.getElementById("result").innerHTML
+                += item[e].value
+                + svFithPart; 
+            } 
+        }
+        $("form").css("display", "none");
+        $("#startSection").css("display", "none");
+}

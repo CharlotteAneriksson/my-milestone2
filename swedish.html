@@ -4,19 +4,91 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Storytime in Swedish</title>
+    <title>Sagostund på svenska</title>
     <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600,700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Fredoka+One&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
     <link rel="stylesheet" href="css/main.css">
+    
 </head>
 <body>
-        
-        SWEDISH
-        
-        <script src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
-        <script type="text/javascript" src="scripts\main.js"></script>
-        
+    <div id="choiceContainer">
+        <section id="startSection">
+            <h1>Låt oss skriva en saga</h1>
+            <p>Här vill vi att du gör tre olika val, tryck på start.</p>
+            <div class="row">
+                <div class="col-12 greenButton">
+                   <a class="text-uppercase" id="start" href="#characters" role="button">start</a>
+                </div>
+                <div class="col-12 back">
+                   <a class="text-uppercase" href="index.html" role="button">tillbaka</a>   
+                </div>
+            </div>
+        </section>
+        <section class="selections">
+            <form id="selections" name="selections">
+                <ul class="row">
+                    <li class="col-lg-4" id="characters">
+                        <input type="radio" id="frog" name="character" value="groda"/>
+                        <label for="frog"><img src="assets\img\frog.jpg" alt="groda"></label>
+                    </li>
+                    <li class="col-lg-4">
+                        <input type="radio" id="butterfly" name="character" value="fjäril"/>
+                        <label for="butterfly"><img src="assets\img\butterfly.jpg" alt="fjäril"></label>
+                    </li>
+                    <li class="col-lg-4">
+                        <input type="radio" id="fox" name="character" value="räv"/>
+                        <label for="fox"><img src="assets\img\fox.jpg" alt="räv"></label>
+                    </li>
+                    <li class="col-12" id="enviroments">
+                        <input type="radio" id="city" name="enviroment" value="staden"/>
+                        <label for="city"><img src="assets\img\city.jpg" alt="stad"></label>
+                    </li>
+                    <li class="col-12">
+                        <input type="radio" id="forest" name="enviroment" value="skogen"/>
+                        <label for="forest"><img src="assets\img\forest.jpg" alt="skog"></label>                    
+                    </li>
+                    <li class="col-12">
+                        <input type="radio" id="ocean" name="enviroment" value="havet"/>
+                        <label for="ocean"><img src="assets\img\ocean.jpg" alt="hav"></label>                    
+                    </li>
+                    <li class="col-lg-4"  id="items">
+                        <input type="radio" id="boots" name="item" value="stövel"/>
+                        <label for="boots"><img src="assets\img\boots.jpg" alt="stövlar"></label>
+                    </li>
+                    <li class="col-lg-4" >
+                        <input type="radio" id="clock" name="item" value="fickur"/>
+                        <label for="clock"><img src="assets\img\clock.jpg" alt="fickur"></label>                    
+                    </li>
+                    <li class="col-lg-4">
+                        <input type="radio" id="umbrella" name="item" value="paraply"/>
+                        <label for="umbrella"><img src="assets\img\umbrella.jpg" alt="paraply"></label>                    
+                    </li>
+                    <div class="col-12 greenButton" id="ready">
+                        <p>Är du redo?</p>
+                        <a class="text-uppercase ready-button" href="#result" role="button" onclick="skrivSaga()">Ok !</a>
+                    </div>
+                    <div class="col-12 back backLast">
+                        <a class="text-uppercase" href="#choiceContainer" role="button">tillbaka</a>   
+                    </div> 
+                </ul> 
+            </form>
+            <div id="storyContainer">
+                <p id="result"></p>
+                <div class="col-12 back">
+                    <a class="text-uppercase" href="swedish.html" role="button">tillbaka</a>   
+                </div>
+            </div>
+        </section>
+    </div> 
+
+    <!-- My audio files -->
+    <audio id="selectionSound" src="assets/audio/selection.mp3"></audio>
+    <audio id="magic-wand" src="assets/audio/magic-wand.mp3"></audio>
+
+    <!-- Scripts -->
+    <script src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
+    <script src="scripts/main.js"></script>       
 </body>
 </html>
