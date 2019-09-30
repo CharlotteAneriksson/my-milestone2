@@ -220,7 +220,7 @@ ul li input:checked + label > img{
 .back{
     margin:0 auto;
     position: absolute;     /* Best position to fit all screensizes */
-    bottom:50px;
+    bottom:20px;
     left:0;
 }
 .back a, .greenButton a{
@@ -255,10 +255,10 @@ ul li input:checked + label > img{
     display: none;     /* will be display flex with jQuery */
 }
 #result{
-    width:90%;
+    width:95%;
     font-size:18px;
     margin:0 auto;
-    padding:20px 10px;
+    padding:10px 10px;
     border-radius: 30px;
     background-color:rgba(255, 255, 255, 0.4);
 }
