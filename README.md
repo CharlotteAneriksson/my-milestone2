@@ -140,7 +140,7 @@ It is free and you can use it in commercial use and for your own use. Credit isn
   * Visual Studio Code
   * Git & GitHub
 * How I deployed my project
-1. After final **git push** i loged into my GitHub account
+1. After final **git push** i log in to my GitHub account
 2. Locate the right repository and choose **Settings**
 3. Scroll down to **GitHub Pages** > **Source** and select **master branch**
 4. Once selected its deployed. Copy **link** and paste into README.md 

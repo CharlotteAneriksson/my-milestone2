@@ -44,6 +44,7 @@ function playOpenAudio() {
     $("#openInfo").prop("volume", 0.1);
     $("#showHowItWorks").css("visibility", "visible");
 }
+
 function playCloseAudio(){
     $("#closeInfo")[0].currentTime = 0;
     $("#closeInfo")[0].play();
