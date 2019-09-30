@@ -6,7 +6,7 @@
 <p align="center">
     <img width="150" height="200" src="assets/wireframes/mokcup-childsGame.gif" alt="gif file of mobile mockup">   
 </p>
-
+<p align="center"><a href=" https://charlotteaneriksson.github.io/my-milestone2/">Visit the storytelling app here</a></p>
 
 ---
 
