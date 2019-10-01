@@ -5,272 +5,307 @@
 */
 
     /*      General settings        */
-html {
-    width: 100%;
-    height: 100%;
-}
-html, body{
-    margin:0;
-    padding:0;
-    box-sizing: content-box;
-    scroll-behavior: smooth;
-    scroll-snap-type: y mandatory;
-}
-body {
-    font-family: 'Fredoka One', cursive;
-    color:#7e557f;
-    width: 100%;
-    height: 100%;
-    overflow-x: hidden; /* prevent sreen scroll from smaller screens */
-}
-.col-12{
-    text-align:center;
-    padding:0; /* reset bootstrap padding */
-}
-    /*      Backgrounds        */
-.wrapper{
-    background-image: url("../assets/img/bg1.jpg");
-    background-position: center left;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed; /* Fills whitespace createt on iphone */
-}
-#choiceContainer section:nth-child(1){
-    background-image: url("../assets/img/bg2.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-#ready{
-    background-image: url("../assets/img/bg3.jpg");
-    background-position: center left;
-    background-repeat: no-repeat;
-    background-size: cover; 
-}
-#storyContainer{
-    background-image: url("../assets/img/bg4.jpg");
-    background-position: center left;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-    /*      Welcome phrase        */
-#two-language-heading{
-    margin-top:30px;
-    font-size: 60px;
-    letter-spacing: 2px;
-    opacity:0;          /* Gets visibility with javascript */
-    transition: opacity .8s ease-in-out;
-}
-header h1 span{
-    display:block;
-    font-size: 50%;
-}
-    /*      Flags        */
-.btn-language img{
-    margin:10px 0 10px 0;
-    opacity:0.8;
-    width:120px;
-    height:90px;
-    transition: all .2s ease-in-out;
-}
-.btn-language img:hover{
-    opacity:1;
-    width:130px;
-    height:100px;
-}
-    /*      Footer        */
-footer button{
-    position: absolute;
-    bottom:20px;
-    right:15px;
-    width:50px;
-    height:50px;
-    padding:5px; 
-    color:#a874a8;
-    background-color:#7e557f;
-    font-size: 24px;
-    border:none;
-    border-radius: 5px;
-    transition: background-color .3s ease-in;
-}
-footer button:hover{
-    color:#7e557f;
-    background-color:#a874a8;
-} 
-        /*      Info shows when clicked       */
-#showHowItWorks{
-    font-family: 'Source Sans Pro', sans-serif;
-    color:#fafafa;
-    position: fixed;
-    width:100vw;
-    height:100%;
-    top:0;
-    left:0;
-    background-color:rgba(36, 36, 36, 0.9);
-    display:flex;
-    margin-left:1px;
-    align-items: center;
-    justify-content: center;
-    visibility:hidden;
-}
-
-    /*      Second page - User makes their choices      */
-
-#choiceContainer{
-    height:100vh;
-}
-#choiceContainer section{
-    height:100vh;
-    text-align: center;
-}
-#choiceContainer section > h1{
-    padding:40px 10px 0 10px;
-}
-#choiceContainer section > p{
-    font-size:22px;
-    padding:10px 5px 0 5px;
-}
-#ready p{
-    font-size:22px;
-    padding:60px 0 30px 0;
-}
-#ready{
-    position: relative;
-    bottom:-24px;
-    height:100vh;
-    width:100vw;
-} 
-
-.selections{
-    display: none;
-}
- /* Make ul list fullpage*/
- section form{
-     width:100%;
- }
-section ul{
-    height:100%;
-    width:100%;
-}
-.row{
-    margin-left:0;
-}
-section ul{
-    margin-bottom:0;
-    padding-inline-start:0;
-    margin-block-start: 0;
-    margin-block-end: 0;
-}
-
-ul li:nth-child(3n){
-    height: 100vh;
-}
-    /*Space out the pictures on small screens*/
-ul li:nth-child(n+4) img{
-    padding-top:100px;
-}
-ul li:nth-child(n+7) img{
-    padding-top:0;
-}
-ul li{
-   list-style-type: none;
-   padding:20px 0 0 0;
-}
-    /* Get the pic to resize n follow the screen sixe */
-ul li img{
-    width:100%;
-}
-    /*Show pic instead of radio button */
-ul li input{
-    display:none;
- }
-    /* Make sure the user knows whats selected */
-ul li input:not(:checked) + label{
-    filter: grayscale(0%);
-    opacity:1;
-    transition:filter .3s ease-in;
-    transition:opacity .3s ease-in;
-}
-ul li input + label{
-    filter: grayscale(100%);
-    opacity:0.6;
-}
-ul li input:checked + label > img{
-    border:1px solid #333;
-    border-radius: 20px;
-}
-
-    /*      Buttons      */
-.greenButton{
-    margin-top:40px;
-}
-.greenButton a{
-    color:#c5dd83;
-    font-size:1.5em;
-    background-color: #adba60;
-    box-shadow:4px 4px 1px #526347;
-    padding:20px;
-    border-radius: 10px;
-    transition: background-color .3s ease-in-out, color .3s ease-in-out;
-}
-.greenButton a:hover{
-    color:#adba60;
-    background-color: #c5dd83;
-}
-.back{
-    margin:0 auto;
-    position: absolute;     /* Best position to fit all screensizes */
-    bottom:15px;
-    left:0;
-}
-.back a, .greenButton a{
-    text-decoration: none;
-    letter-spacing: 2px;
-}
-.back a{
-    color:#f7a654;
-    background-color: #d06827;
-    box-shadow:4px 4px 1px #a85a2f;
-    padding:10px;
-    border-radius: 10px;
-    transition: background-color .3s ease-in-out, color .3s ease-in-out;
-}
-.back a:hover{
-    color:#d06827;
-    background-color: #f7a654;
-}
-.backLast{      /* Added a class for back-link do to the positioning */
-    margin:0 auto;
-    position: relative;     
-    bottom:100px;
-    left:0;
-}
-
-        /*      The story       */
-#storyContainer{
-    height: 100vh;
-    width:100%;
-    align-items: center;
-    justify-content: center;
-    display: none;     /* will be display flex with jQuery */
-}
-#result{
-    width:95%;
-    font-size:17px;
-    margin:0 auto;
-    padding:8px 8px;
-    border-radius: 30px;
-    background-color:rgba(255, 255, 255, 0.4);
-}
-
-    /*      Media Querys      */
-@media (min-width: 995px){
-    ul li:nth-child(-n+3), ul li:nth-child(n+7){ 
-        padding-top: 333px;
+    html {
+        width: 100%;
+        height: 100%;
+    }
+    html, body{
+        margin:0;
+        padding:0;
+        -webkit-box-sizing: content-box;
+                box-sizing: content-box;
+        scroll-behavior: smooth;
+        -ms-scroll-snap-type: y mandatory;
+            scroll-snap-type: y mandatory;
+    }
+    body {
+        font-family: 'Fredoka One', cursive;
+        color:#7e557f;
+        width: 100%;
+        height: 100%;
+        overflow-x: hidden; /* prevent sreen scroll from smaller screens */
+    }
+    .col-12{
+        text-align:center;
+        padding:0; /* reset bootstrap padding */
+    }
+        /*      Backgrounds        */
+    .wrapper{
+        background-image: url("../assets/img/bg1.jpg");
+        background-position: center left;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed; /* Fills whitespace createt on iphone */
+    }
+    #choiceContainer section:nth-child(1){
+        background-image: url("../assets/img/bg2.jpg");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    #ready{
+        background-image: url("../assets/img/bg3.jpg");
+        background-position: center left;
+        background-repeat: no-repeat;
+        background-size: cover; 
+    }
+    #storyContainer{
+        background-image: url("../assets/img/bg4.jpg");
+        background-position: center left;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+        /*      Welcome phrase        */
+    #two-language-heading{
+        margin-top:30px;
+        font-size: 60px;
+        letter-spacing: 2px;
+        opacity:0;          /* Gets visibility with javascript */
+        -webkit-transition: opacity .8s ease-in-out;
+        -o-transition: opacity .8s ease-in-out;
+        transition: opacity .8s ease-in-out;
+    }
+    header h1 span{
+        display:block;
+        font-size: 50%;
+    }
+        /*      Flags        */
+    .btn-language img{
+        margin:10px 0 10px 0;
+        opacity:0.8;
+        width:120px;
+        height:90px;
+        -webkit-transition: all .2s ease-in-out;
+        -o-transition: all .2s ease-in-out;
+        transition: all .2s ease-in-out;
+    }
+    .btn-language img:hover{
+        opacity:1;
+        width:130px;
+        height:100px;
+    }
+        /*      Footer        */
+    footer button{
+        position: absolute;
+        bottom:20px;
+        right:15px;
+        width:50px;
+        height:50px;
+        padding:5px; 
+        color:#a874a8;
+        background-color:#7e557f;
+        font-size: 24px;
+        border:none;
+        border-radius: 5px;
+        -webkit-transition: background-color .3s ease-in;
+        -o-transition: background-color .3s ease-in;
+        transition: background-color .3s ease-in;
+    }
+    footer button:hover{
+        color:#7e557f;
+        background-color:#a874a8;
+    } 
+            /*      Info shows when clicked       */
+    #showHowItWorks{
+        font-family: 'Source Sans Pro', sans-serif;
+        color:#fafafa;
+        position: fixed;
+        width:100vw;
+        height:100%;
+        top:0;
+        left:0;
+        background-color:rgba(36, 36, 36, 0.9);
+        display:-webkit-box;
+        display:-ms-flexbox;
+        display:flex;
+        margin-left:1px;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+        visibility:hidden;
+    }
+    
+        /*      Second page - User makes their choices      */
+    
+    #choiceContainer{
+        height:100vh;
+    }
+    #choiceContainer section{
+        height:100vh;
+        text-align: center;
+    }
+    #choiceContainer section > h1{
+        padding:40px 10px 0 10px;
+    }
+    #choiceContainer section > p{
+        font-size:22px;
+        padding:10px 5px 0 5px;
+    }
+    #ready p{
+        font-size:22px;
+        padding:60px 0 30px 0;
+    }
+    #ready{
+        position: relative;
+        bottom:-24px;
+        height:100vh;
+        width:100vw;
+    } 
+    
+    .selections{
+        display: none;
+    }
+     /* Make ul list fullpage*/
+     section form{
+         width:100%;
+     }
+    section ul{
+        height:100%;
+        width:100%;
+    }
+    .row{
+        margin-left:0;
+    }
+    section ul{
+        margin-bottom:0;
+        -webkit-padding-start:0;
+                padding-inline-start:0;
+        -webkit-margin-before: 0;
+                margin-block-start: 0;
+        -webkit-margin-after: 0;
+                margin-block-end: 0;
+    }
+    
+    ul li:nth-child(3n){
+        height: 100vh;
+    }
+        /*Space out the pictures on small screens*/
+    ul li:nth-child(n+4) img{
+        padding-top:100px;
+    }
+    ul li:nth-child(n+7) img{
+        padding-top:0;
+    }
+    ul li{
+       list-style-type: none;
+       padding:20px 0 0 0;
+    }
+        /* Get the pic to resize n follow the screen sixe */
+    ul li img{
+        width:100%;
+    }
+        /*Show pic instead of radio button */
+    ul li input{
+        display:none;
+     }
+        /* Make sure the user knows whats selected */
+    ul li input:not(:checked) + label{
+        -webkit-filter: grayscale(0%);
+                filter: grayscale(0%);
+        opacity:1;
+        -webkit-transition:-webkit-filter .3s ease-in;
+        transition:-webkit-filter .3s ease-in;
+        -o-transition:filter .3s ease-in;
+        transition:filter .3s ease-in;
+        transition:filter .3s ease-in, -webkit-filter .3s ease-in;
+        -webkit-transition:opacity .3s ease-in;
+        -o-transition:opacity .3s ease-in;
+        transition:opacity .3s ease-in;
+    }
+    ul li input + label{
+        -webkit-filter: grayscale(100%);
+                filter: grayscale(100%);
+        opacity:0.6;
+    }
+    ul li input:checked + label > img{
+        border:1px solid #333;
+        border-radius: 20px;
+    }
+    
+        /*      Buttons      */
+    .greenButton{
+        margin-top:40px;
+    }
+    .greenButton a{
+        color:#c5dd83;
+        font-size:1.5em;
+        background-color: #adba60;
+        -webkit-box-shadow:4px 4px 1px #526347;
+                box-shadow:4px 4px 1px #526347;
+        padding:20px;
+        border-radius: 10px;
+        -webkit-transition: background-color .3s ease-in-out, color .3s ease-in-out;
+        -o-transition: background-color .3s ease-in-out, color .3s ease-in-out;
+        transition: background-color .3s ease-in-out, color .3s ease-in-out;
+    }
+    .greenButton a:hover{
+        color:#adba60;
+        background-color: #c5dd83;
+    }
+    .back{
+        margin:0 auto;
+        position: absolute;     /* Best position to fit all screensizes */
+        bottom:15px;
+        left:0;
+    }
+    .back a, .greenButton a{
+        text-decoration: none;
+        letter-spacing: 2px;
+    }
+    .back a{
+        color:#f7a654;
+        background-color: #d06827;
+        -webkit-box-shadow:4px 4px 1px #a85a2f;
+                box-shadow:4px 4px 1px #a85a2f;
+        padding:10px;
+        border-radius: 10px;
+        -webkit-transition: background-color .3s ease-in-out, color .3s ease-in-out;
+        -o-transition: background-color .3s ease-in-out, color .3s ease-in-out;
+        transition: background-color .3s ease-in-out, color .3s ease-in-out;
+    }
+    .back a:hover{
+        color:#d06827;
+        background-color: #f7a654;
+    }
+    .backLast{      /* Added a class for back-link do to the positioning */
+        margin:0 auto;
+        position: relative;     
+        bottom:100px;
+        left:0;
+    }
+    
+            /*      The story       */
+    #storyContainer{
+        height: 100vh;
+        width:100%;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+        display: none;     /* will be display flex with jQuery */
     }
     #result{
-        width:70%;
-        font-size:20px;
-        padding:15px 15px;
+        width:95%;
+        font-size:17px;
+        margin:0 auto;
+        padding:8px 8px;
+        border-radius: 30px;
+        background-color:rgba(255, 255, 255, 0.4);
     }
-}
+    
+        /*      Media Querys      */
+    @media (min-width: 995px){
+        ul li:nth-child(-n+3), ul li:nth-child(n+7){ 
+            padding-top: 333px;
+        }
+        #result{
+            width:70%;
+            font-size:20px;
+            padding:15px 15px;
+        }
+    }

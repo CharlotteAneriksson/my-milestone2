@@ -169,17 +169,20 @@ It is free and you can use it in commercial use and for your own use. Credit isn
   * Do to: Users wish, two parents ask for this in case the kid were trying to scroll the screen while reading.
 
 ### Testing
-1. Desktop & Laptop
+1. **Desktop & Laptop**
   * All linkes where clicked and tested if they were working proparly
   * Browsertesting:
     * Chrome - Works perfectly and looks great
     * Edge - Works fine, looks great
     * Fireforx - Work like it should, looks good
     * Safari - On desktop it works fine, small issues in mobile
-2. Iphone
+2. **Iphone**
   * Github link works perfectly, looks great
   * With Chrome it works perfectly and looks great.
   * With safari webbrowser there is some issue with closing button adn the css style 100vh 
+3. **Screenreaders**
+  * Tested with wondows buitin screenreader, works good but i find windows screenreader in general hard to manage (not use to it).
+  * Tested with safari siri, finds languages really good and reads the links very well.
 
 ## Bugs and Bugfixers
  * Bug with the vh on the ready-to write story part of the page

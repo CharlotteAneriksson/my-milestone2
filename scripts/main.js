@@ -1,26 +1,26 @@
-// Only show page when user clicks start
+// Only show content when user clicks in different stages
 $("document").ready(function(){
     $("#start").click(function(){
         $(".selections").css("display", "block");
-    });
-});
-
-// Scroll to next when selection made
-
-$("document").ready(function(){
+        $("form li:nth-child(n+4)").css("display", "none");
+        $(".showWithjQuery").css("display", "none");
+    }); 
     $("[name=character]").click(function(){
+        $("form li:nth-child(-n+6)").css("display", "block");
         window.location = "#enviroments";
     });
     $("[name=enviroment]").click(function(){
+        $("form li:nth-child(-n+9)").css("display", "block");
         window.location = "#items";
     });
     $("[name=item]").click(function(){
+        $(".showWithjQuery").css("display", "block");
         window.location = "#ready";
     });
 });
+ 
 
 // Play sound when input gets checked
-
 $("#selections").find(":input").click(playCheckedAudio);
 
 function playCheckedAudio(){
@@ -49,7 +49,7 @@ const fifthPart = `. The luckiest item in the whole world.<br />He had the best 
 const svFirstPart = "Det var en gång en ";
 const svSecondPart = `, vacker, modig och stark. Fortfarande ung med hela livet framför sig.<br />Boende med mamma och pappa och en syster i deras mysiga näste. Drömmen var att en dag resa ut till den stora `;
 const svThirdPart = `. Den magiska världen alla pratade om.<br />Vad tror du, låt oss föreställa oss den tillsammans...<br />`;
-const svFourthPart = `Dagen kom äntligen, det var dags att fara. Dags att se världen. Hon visste precis var hon skulle ta med sig, ett `;
+const svFourthPart = `Dagen kom äntligen, det var dags att fara. Dags att se världen. Hon visste precis var hon skulle ta med sig, `;
 const svFithPart = `. Det mest tursamma föremålet i hela världen.<br />Hon hade en otroligt resa, fick miljoner nya vänner som hon lärde att vara modiga precis som henne.<br />Snipp snapp snut så var sagan slut, sov gott hjärtat.`;
 
 function writeStory() {
