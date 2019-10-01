@@ -4,6 +4,7 @@ $("document").ready(function(){
         $(".selections").css("display", "block");
         $("form li:nth-child(n+4)").css("display", "none");
         $(".showWithjQuery").css("display", "none");
+        $("#startSection").css("display", "none");
     }); 
     $("[name=character]").click(function(){
         $("form li:nth-child(-n+6)").css("display", "block");
