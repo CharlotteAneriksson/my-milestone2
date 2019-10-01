@@ -36,6 +36,7 @@ $(".ready-button").click(function(){
     $("#magic-wand")[0].play();
     $("#magic-wand").prop("volume", 0.1);
     $("#storyContainer").css("display", "flex");
+    $(".showWithjQuery").css("display", "none");
 });
 
 

@@ -86,13 +86,16 @@ Visit the [storytelling app](https://charlotteaneriksson.github.io/my-milestone2
 ---
 
 ## Features 
-1. #### Language choice
+1. ### Language choice
     * Possibility to choose to play the App in Swedish- or English mode, selected by flags
     * Heading circulates in both langugages 
-2. Create a farytail by chooseing yourself who's going to be the main character
-3.  
+2. Create a farytail by chooseing yourself who's going to be the main character.
+3. Make it easier to use for kids by hiding and showing step by step during the selections with jQuery.
 ## Future features 
-
+1. You could use Javascript Speach Synthesis to help read the story in different languages and speed.
+2. Create 27 different textfiles to call upon when user makes their different choices.
+3. Add associated sounds to the different choices.
+  * This was during this time to timeconsuming do to the fact i needed to look for free soundeffects and not needing to edit them. Also many different licens options to have in mind too.
 
 ## Credit
 ### Photographers
@@ -149,10 +152,11 @@ It is free and you can use it in commercial use and for your own use. Credit isn
 
 ## Validations, Testing & Adjustments 
  * Autoprefixers from - [this link](https://autoprefixer.github.io/)
-  * 
+  * A PostCSS plugin which parses your CSS and adds vendor prefixes. Sound complicated but it just adds support for the latest css features in different web browsers. 
 
  * Validation of [HTML5](https://validator.w3.org/)
-  * 
+  * Warning - consider to not use meta with content of user-scalable=no 
+  * Error - Not valid with divs inside of <code><ul></code>
 
  * Validation of [CSS3](https://jigsaw.w3.org/css-validator/)
 
