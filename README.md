@@ -15,7 +15,7 @@ Visit the [storytelling app](https://charlotteaneriksson.github.io/my-milestone2
 ### What it is
 1. **Possibility to write your own good night story**
     * An app that makes it possible to create and read a story for a good night sleep or just to have a nice time while its raining. 
-    * Choices are given to you, enviroment, character and item. This will after selection create a story.
+    * Choices are given to you: enviroment, character and item. These will after selection create a story.
 ### Whom its for
 1. **The Parent**
 2. **All parents, sibblings or other family**
@@ -24,7 +24,7 @@ Visit the [storytelling app](https://charlotteaneriksson.github.io/my-milestone2
 
 #### User
 1. **Make time for both technologies and familytime**
-    * As a parent, no need to have good imagination anymore. Just open the app, get your child to select their favourit animal, enviroments and items and just with a click you have a story to read together.
+    * As a parent, no need to have good imagination anymore. Just open the app, get your child to select their favourit animal, enviroment and item and just with a click you have a story to read together.
     * When the creativity lack after a hard day at work.
     * When you wanna use todays technologies but still wanna give what you got when you were a kid.
     * No need to think all screens are bad. They are not all bad, just use them for the right reasons.
@@ -35,7 +35,7 @@ Visit the [storytelling app](https://charlotteaneriksson.github.io/my-milestone2
 
 #### Developer
 1. **For fun**
-    * Just for fun or for you own children. Create a game or other fun stuff you can later use with your kids or give away to others.
+    * Just for fun or for your own children. Create a game or other fun stuff you can later use with your kids or give away to others.
 2. **To grow creativity**
     * Create color, graphic cartoons or just make up a game that doesnt excist.
 3. **To practice JavaScript**
@@ -86,16 +86,16 @@ Visit the [storytelling app](https://charlotteaneriksson.github.io/my-milestone2
 ---
 
 ## Features 
-1. ### Language choice
+1. Language choice
     * Possibility to choose to play the App in Swedish- or English mode, selected by flags
     * Heading circulates in both langugages 
 2. Create a farytail by chooseing yourself who's going to be the main character.
 3. Make it easier to use for kids by hiding and showing step by step during the selections with jQuery.
 ## Future features 
 1. You could use Javascript Speach Synthesis to help read the story in different languages and speed.
-2. Create 27 different textfiles to call upon when user makes their different choices.
+2. Create 27 different textfiles and call it depending on the choices.
 3. Add associated sounds to the different choices.
-  * This was during this time to timeconsuming do to the fact i needed to look for free soundeffects and not needing to edit them. Also many different licens options to have in mind too.
+  * This was too timeconsuming do to the fact i needed to search for free soundeffects and not needing to edit them. Also many different licens options to have in mind too.
 
 ## Credit
 ### Photographers
@@ -113,6 +113,7 @@ It is free and you can use it in commercial use and for your own use. Credit isn
   * Learned about nth:child in [Sara Copes](https://css-tricks.com/almanac/selectors/n/nth-child/) article. She also linkes to a great math explaination from the author [Chris Coyier](https://css-tricks.com/how-nth-child-works/) 
   * Learning and creating solutions with the help from [w3schools Library](https://www.w3schools.com/), mainly refreshed my knowledge about jQuery syntax here..
   * The book [HeadFirst Javascript](https://www.oreilly.com/library/view/head-first-javascript/9781449340124/) helped me with creating algoritms on paper first. Mapping the problem first..
+  * Big thanks to my mentor who helped me during this project and gave great feedback and pointers.
 
   ### Audio 
 1. Im getting most of my audio files from [Sound Jay](https://www.soundjay.com/index.html) 
