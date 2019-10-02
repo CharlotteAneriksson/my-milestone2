@@ -86,7 +86,7 @@ Visit the [storytelling app](https://charlotteaneriksson.github.io/my-milestone2
 ---
 
 ## Features 
-1. ### Language choice
+1. Language choice
     * Possibility to choose to play the App in Swedish- or English mode, selected by flags
     * Heading circulates in both langugages 
 2. Create a farytail by chooseing yourself who's going to be the main character.
