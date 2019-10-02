@@ -113,6 +113,7 @@ It is free and you can use it in commercial use and for your own use. Credit isn
   * Learned about nth:child in [Sara Copes](https://css-tricks.com/almanac/selectors/n/nth-child/) article. She also linkes to a great math explaination from the author [Chris Coyier](https://css-tricks.com/how-nth-child-works/) 
   * Learning and creating solutions with the help from [w3schools Library](https://www.w3schools.com/), mainly refreshed my knowledge about jQuery syntax here..
   * The book [HeadFirst Javascript](https://www.oreilly.com/library/view/head-first-javascript/9781449340124/) helped me with creating algoritms on paper first. Mapping the problem first..
+  * Big thanks to my mentor who helped me during this project and gave great feedback and pointers.
 
   ### Audio 
 1. Im getting most of my audio files from [Sound Jay](https://www.soundjay.com/index.html) 
