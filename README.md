@@ -15,7 +15,7 @@ Visit the [storytelling app](https://charlotteaneriksson.github.io/my-milestone2
 ### What it is
 1. **Possibility to write your own good night story**
     * An app that makes it possible to create and read a story for a good night sleep or just to have a nice time while its raining. 
-    * Choices are given to you, enviroment, character and item. This will after selection create a story.
+    * Choices are given to you: enviroment, character and item. These will after selection create a story.
 ### Whom its for
 1. **The Parent**
 2. **All parents, sibblings or other family**
