@@ -156,7 +156,8 @@ It is free and you can use it in commercial use and for your own use. Credit isn
 
  * Validation of [HTML5](https://validator.w3.org/)
   * Warning - consider to not use meta with content of user-scalable=no 
-  * Error - Not valid with divs inside of <code><ul></code>
+  * Error - Not valid with divs inside of ul elements 
+    * Moved it outside of the form and the HTML was valid.
 
  * Validation of [CSS3](https://jigsaw.w3.org/css-validator/)
 
