@@ -24,7 +24,7 @@ Visit the [storytelling app](https://charlotteaneriksson.github.io/my-milestone2
 
 #### User
 1. **Make time for both technologies and familytime**
-    * As a parent, no need to have good imagination anymore. Just open the app, get your child to select their favourit animal, enviroments and items and just with a click you have a story to read together.
+    * As a parent, no need to have good imagination anymore. Just open the app, get your child to select their favourit animal, enviroment and item and just with a click you have a story to read together.
     * When the creativity lack after a hard day at work.
     * When you wanna use todays technologies but still wanna give what you got when you were a kid.
     * No need to think all screens are bad. They are not all bad, just use them for the right reasons.
@@ -35,7 +35,7 @@ Visit the [storytelling app](https://charlotteaneriksson.github.io/my-milestone2
 
 #### Developer
 1. **For fun**
-    * Just for fun or for you own children. Create a game or other fun stuff you can later use with your kids or give away to others.
+    * Just for fun or for your own children. Create a game or other fun stuff you can later use with your kids or give away to others.
 2. **To grow creativity**
     * Create color, graphic cartoons or just make up a game that doesnt excist.
 3. **To practice JavaScript**
