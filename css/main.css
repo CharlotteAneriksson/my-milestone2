@@ -87,8 +87,8 @@
         width:50px;
         height:50px;
         padding:5px; 
-        color:#a874a8;
-        background-color:#7e557f;
+        color:#7e557f;
+        background-color:#a874a8;
         font-size: 24px;
         border:none;
         border-radius: 5px;
@@ -97,8 +97,8 @@
         transition: background-color .3s ease-in;
     }
     footer button:hover{
-        color:#7e557f;
-        background-color:#a874a8;
+        color:#a874a8;
+        background-color:#7e557f;
     } 
             /*      Info shows when clicked       */
     #showHowItWorks{
