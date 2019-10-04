@@ -139,6 +139,9 @@ It is free and you can use it in commercial use and for your own use. Credit isn
   * Linked from head tag in a stylesheet link. Do not use @import do to the negative impact it can have on the web pafe performance.
 * Font Awesome - Similar to google fonts but more of font and icon based toolkit, available both for free and for a fee. 
   * Icons question-mark and cross
+* Favicon [visit favicon](https://www.favicon.cc/?)
+  * Really cool creater of the little icon that shows in your browser tab. This also will be the icon when saved to screen on mobile.
+  * Very good for good user experience 
 
 
 ### Deployment
@@ -157,6 +160,7 @@ It is free and you can use it in commercial use and for your own use. Credit isn
     * Functions could get optimized by passing it to another function, didnt get it to work though with the time I had. 
     * Would be a better and more fulfilled program if there were 27 different farytails to be called on. Maybe store variable from checked values with logical operators and then use a switch statement instead of a long if algorithm to optimize it.
   * To prevent user to scroll down and press 'OK' by accident and get an empty story I've hidden each selection part, showing them step by step as you make selections. This with jQuery
+
 ## Validations, Testing & Adjustments 
  * Autoprefixers from - [this link](https://autoprefixer.github.io/)
   * A PostCSS plugin which parses your CSS and adds vendor prefixes. Sound complicated but it just adds support for the latest css features in different web browsers. 
