@@ -93,7 +93,9 @@ Visit the [storytelling app](https://charlotteaneriksson.github.io/my-milestone2
 3. Make it easier to use for kids by hiding and showing step by step during the selections with jQuery.
 ## Future features 
 1. You could use Javascript Speach Synthesis to help read the story in different languages and speed.
+   * This could make it possible to read out the story out load in a bunch of different languages.
 2. Create 27 different textfiles and call it depending on the choices.
+  * This would make the storyapp fun longer. Today there is mainly one story with change of characters, enviroment and items.
 3. Add associated sounds to the different choices.
   * This was too timeconsuming do to the fact i needed to search for free soundeffects and not needing to edit them. Also many different licens options to have in mind too.
 
