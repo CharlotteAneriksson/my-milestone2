@@ -218,6 +218,7 @@ It is free and you can use it in commercial use and for your own use. Credit isn
    * Solution was to add positioning with css
  * Slow sound on iphone when visiting the github through facebooklink, not visiting through github on chrome though 
   * still searching for solutions
-
+* White space caused by my HTML structure
+ * Validated and got an Error - Not valid with divs inside of ul elements - moved them.
 
 ---
