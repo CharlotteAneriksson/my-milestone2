@@ -188,6 +188,9 @@ It is free and you can use it in commercial use and for your own use. Credit isn
  * Validation of [JS](https://codebeautify.org/)
  * Testing of Javascript - [JsHint](https://jshint.com/)
  * Wish to learn more like Jasmine to test my JS code with this. 
+ * **Tests In Real Life**
+    * Tested on two kids in the age of 4 and seven, they thought it was very fun and really good happy characters.
+    * Tested on three different parents, they all liked it, specially the part when you have to choose before moving on.
 
 ### Adjustments
 * Original landingpage UX
