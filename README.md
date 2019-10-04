@@ -142,6 +142,10 @@ It is free and you can use it in commercial use and for your own use. Credit isn
 * Favicon [visit favicon](https://www.favicon.cc/?)
   * Really cool creater of the little icon that shows in your browser tab. This also will be the icon when saved to screen on mobile.
   * Very good for good user experience 
+* Adobe illustrator
+  * Used to create the illustrations
+* Adobe Photoshop
+  * Used to get pictures in same scheme and also resize photos.
 
 
 ### Deployment
@@ -182,8 +186,8 @@ It is free and you can use it in commercial use and for your own use. Credit isn
 </p>
     
  * Validation of [JS](https://codebeautify.org/)
-
  * Testing of Javascript - [JsHint](https://jshint.com/)
+ * Wish to learn more like Jasmine to test my JS code with this. 
 
 ### Adjustments
 * Original landingpage UX
