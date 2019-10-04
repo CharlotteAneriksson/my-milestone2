@@ -54,6 +54,7 @@ const svThirdPart = `. Den magiska världen alla pratade om.<br />Vad tror du, l
 const svFourthPart = `Dagen kom äntligen, det var dags att fara. Dags att se världen. Hon visste precis var hon skulle ta med sig, `;
 const svFithPart = `. Det mest tursamma föremålet i hela världen.<br />Hon hade en otroligt resa, fick miljoner nya vänner som hon lärde att vara modiga precis som henne.<br />Snipp snapp snut så var sagan slut, sov gott hjärtat.`;
 
+    // Write the english farytail
 function writeStory() {
         
         document.getElementById("result").innerHTML = "";

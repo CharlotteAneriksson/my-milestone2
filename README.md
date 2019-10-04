@@ -159,7 +159,8 @@ It is free and you can use it in commercial use and for your own use. Credit isn
   * JS needs more optimizing, get it to work then optimize
     * Functions could get optimized by passing it to another function, didnt get it to work though with the time I had. 
     * Would be a better and more fulfilled program if there were 27 different farytails to be called on. Maybe store variable from checked values with logical operators and then use a switch statement instead of a long if algorithm to optimize it.
-  * To prevent user to scroll down and press 'OK' by accident and get an empty story I've hidden each selection part, showing them step by step as you make selections. This with jQuery
+  * To prevent user to scroll down and press 'OK' by accident and get an empty story I've hidden each selection part, showing them step by step as you make selections, this with jQuery.
+  * To not confuse the web browser I've worked with the lang attribute with accuracy.
 
 ## Validations, Testing & Adjustments 
  * Autoprefixers from - [this link](https://autoprefixer.github.io/)

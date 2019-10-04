@@ -79,7 +79,7 @@
         width:130px;
         height:100px;
     }
-        /*      Footer        */
+        /*      Footer  index.html      */
     footer button{
         position: absolute;
         bottom:20px;
@@ -100,7 +100,9 @@
         color:#a874a8;
         background-color:#7e557f;
     } 
+
             /*      Info shows when clicked       */
+
     #showHowItWorks{
         font-family: 'Source Sans Pro', sans-serif;
         color:#fafafa;
@@ -149,7 +151,6 @@
         height:100vh;
         width:100vw;
     } 
-    
     .selections{
         display: none;
     }
@@ -233,7 +234,7 @@
     }
     .back{
         margin:0 auto;
-        position: absolute;     /* Best position to fit all screensizes */
+        position: absolute;  
         bottom:15px;
         left:0;
     }
